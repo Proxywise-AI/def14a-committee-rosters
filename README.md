@@ -73,7 +73,7 @@ The `shape` field describes where and how each filing states its roster; `notes`
 
 ## What the panel covers, and does not
 
-27 filings, 15 large issuers and 12 smaller ones, one filing each, chosen for how the roster is stated: 13 membership matrices (tick images, chair glyphs, letter codes, words), 13 prose rosters (biography cards, per-committee lists, report signature blocks, ownership-table footnotes), 1 picture-only filing. It is a panel of layouts, not a sample of the market; rates on it say how a reader copes with each shape, not how often each shape occurs.
+27 filings, 15 large issuers and 12 smaller ones, one filing each, chosen for how the roster is stated: 13 membership matrices (tick images, chair glyphs, letter codes, words), 13 prose rosters (biography cards, per-committee lists, report signature blocks, ownership-table footnotes), 1 picture-only filing. It is a panel of layouts, not a sample of the market; rates on it say how a reader copes with each shape, not how often each shape occurs. If useful, I would be happy to share a larger holdout sample we used to cross-check the evals.
 
 ## Licence and citation
 
