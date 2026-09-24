@@ -1,0 +1,32 @@
+fixture          truth             dirs slate   seats (in scope)   roles             chairs           extra  leaving      image      ahead
+cnxn             text-cited          6   6/6   100%   8/8     100%   8/8     100%   3/3       0   0/0     0/0     0
+coca_cola        text-cited         12  12/12  100%  18/18    100%  18/18    100%   5/5       0   0/2     0/0     0
+expo             text-cited          6   6/6   100%  12/12    100%  12/12    100%   3/3       0   0/0     0/0     0
+general_mills    text-cited         12  12/12  100%  20/20    100%  20/20    100%   5/5       0   0/2     0/0     0
+hubbell          text-cited         11  11/11  100%  27/27    100%  27/27    100%   5/5       0   0/0     0/0     0
+jbss             text-cited         10  10/10  100%   9/9     100%   9/9     100%   3/3       0   0/0     0/0     0
+mcri             text-cited          5   5/5   100%   6/6     100%   6/6     100%   2/2       0   0/0     0/0     0
+mlab             text-cited          7   7/7   100%   6/6     100%   6/6     100%   2/2       0   0/0     0/3     0
+nordson          text-cited          9   9/9   100%  17/17    100%  17/17    100%   4/4       0   0/1     0/0     0
+nssc             text-cited          7   7/7   100%   9/9     100%   9/9     100%   3/3       0   0/0     0/0     0
+utmd             text-cited          6   6/6   100%  11/11    100%  11/11    100%   1/1       0   0/0     0/0     0
+verizon          text-cited          9   9/9   100%  15/15    100%  15/15    100%   4/4       0   0/3     0/0     0
+walmart          text-cited         11  11/11  100%  22/22    100%  22/22    100%   4/4       0   0/5     0/0     0
+weys             text-cited          7   7/7   100%  12/12    100%  12/12    100%   3/3       0   0/0     0/0     0
+3m               verified-reading   10   9/9   100%  17/17    100%  17/17    100%   4/4       0   0/2     0/0     0
+amazon           verified-reading   11   9/9   100%  11/11    100%  11/11    100%   4/4       0   0/1     0/0     0
+caterpillar      verified-reading   10   9/9   100%  21/21    100%  21/21    100%   5/5       0   0/0     0/0     0
+exxon            verified-reading   12  12/12  100%  28/28    100%  28/28    100%   6/6       0   0/2     0/0     0
+hurc             verified-reading    8   5/5   100%   7/7     100%   7/7     100%   3/3       0   0/0     0/0     0
+johnson_johnson  verified-reading   12  12/12  100%  29/29    100%  29/29    100%   7/7       0   0/0     0/0     0
+jpmorgan         verified-reading   11  10/10  100%  23/23    100%  23/23    100%   5/5       0   0/0     0/0     0
+kfrc             verified-reading    9   7/7   100%  16/16    100%  16/16    100%   4/4       0   0/0     0/0     0
+microsoft        verified-reading   12  10/10  100%  16/16    100%  16/16    100%   3/3       0   0/2     0/0     0
+powl             verified-reading    8   7/7   100%  12/12    100%  12/12    100%   2/2       0   0/0     0/0     0
+procter_gamble   verified-reading   12  11/11  100%  22/22    100%  22/22    100%   4/4       0   0/2     0/0     0
+target           verified-reading   12  10/10  100%  20/20    100%  20/20    100%   3/3       0   0/6     0/0     0
+ufpt             verified-reading    7   6/6   100%  12/12    100%  12/12    100%   3/3       0   0/0     0/0     0
+POOLED                                    100% 426/426   100% 426/426   100% 100/100     0   0/28    0/3     0
+Wilson 95%                                99–100            99–100            96–100
+status on slate directors the truth places on no committee: none 22, "" 4, member 0
+

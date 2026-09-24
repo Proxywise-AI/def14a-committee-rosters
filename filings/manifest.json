@@ -1,0 +1,272 @@
+[
+  {
+    "key": "cnxn",
+    "company": "PC Connection, Inc.",
+    "cik": "0001050377",
+    "accession": "0001104659-26-036089",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050377/000110465926036089/cnxn-20260513xdef14a.htm",
+    "filed": "2026-03-27",
+    "shape": "mixed — each nominee's biographical paragraph under 'Nominees for Election to our Board of Directors' (lines 869-895) states that nominee's committee seats in prose, and a 'Board Committees' section restates each committee's Chair and members in a per-committee paragraph (Audit 1049, Compensation 1135, Corporate Development 1143); the Compensation Committee and Audit Committee reports carry signature blocks (5081-5085, 5621-5627) and the interlocks paragraph (5095) restates the Compensation Committee.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "coca_cola",
+    "company": "The Coca-Cola Company",
+    "cik": "0000021344",
+    "accession": "0001104659-26-028215",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+    "filed": "2026-03-16",
+    "shape": "mixed — the primary statement is a 'COMMITTEES:' line in each nominee's biography card under 'BIOGRAPHICAL INFORMATION ABOUT OUR DIRECTOR NOMINEES' (lines 4899-6361, e.g. 'COMMITTEES: Audit; Finance (Chair); Executive'); the same memberships appear as letter codes under 'Committee Membership:' in the proxy-summary nominee grid (2411-3293, legend at 2613-2623: A Audit, T Talent and Compensation, G Corporate Governance and Sustainability, F Finance, E Executive; the chair marker did not survive text conversion) and as per-committee member tables 'as of December 31, 2025' under 'Our Board conducts a portion of its work through the committee structure' (7603-8129, first and last names on separate lines with 'Chair' on its own line).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "expo",
+    "company": "Exponent, Inc.",
+    "cik": "0000851520",
+    "accession": "0001193125-26-163945",
+    "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526163945/expo-20260416.htm",
+    "filed": "2026-04-20",
+    "shape": "one_committee_tables — one table (lines 387-489) with a row per committee listing its current members one name per line, the chair marked with an em dash and 'Chairperson'; the director bios (277-370) state no committee memberships, and the Audit and Human Resources Committee report signature blocks (708-716, 1187-1195) repeat the same members.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "general_mills",
+    "company": "General Mills, Inc.",
+    "cik": "0000040704",
+    "accession": "0001628280-26-056619",
+    "url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026056619/gis-20260810.htm",
+    "filed": "2026-08-13",
+    "shape": "mixed — memberships are stated in four places that all agree: per-director cards with a 'Committees' heading followed by the committee names in capitals with '(CHAIR)' (2705-3607), a 'Members:' list per committee with '(Chair)' under 'Board Committees and Their Functions' (4659-4855, the cited lines), a Committee Chairs sidebar (4499-4569), and the Compensation and Talent (7011-7017) and Audit (11189-11197) committee report signatures.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "hubbell",
+    "company": "Hubbell Incorporated",
+    "cik": "0000048898",
+    "accession": "0001308179-26-000121",
+    "url": "https://www.sec.gov/Archives/edgar/data/48898/000130817926000121/hubb014454-def14a.htm",
+    "filed": "2026-03-23",
+    "shape": "mixed — memberships are stated three times and all three agree: (1) nominee summary cards (lines 740-874) whose 'Committees:' lines (752, 758, 764, 792, 798, 804, 834, 840, 846, 868, 874) are separated from the director names by the layout and attach to a director only through the adjacent 'Director since:' year; (2) per-director biography cards with a 'COMMITTEES:' bullet list beside the name (lines 1517-2192); (3) per-committee lists under 'Board Committees' (lines 2486-2713), each headed '<NAME> (Chair)' then 'Members:'; the Compensation (5202-5212) and Audit (9455-9465) report signature blocks restate the same rosters.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "jbss",
+    "company": "John B. Sanfilippo & Son, Inc.",
+    "cik": "0000880117",
+    "accession": "0001193125-26-390588",
+    "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526390588/jbss-20260914.htm",
+    "filed": "2026-09-14",
+    "shape": "mixed — each Common Stock nominee's biography paragraph states her committees and chair role (lines 468, 489, 519/523), the 'Overview of Our Committees' section gives one small block per committee with a 'Members (all independent directors)' bullet list marking the Chairperson (lines 1127-1212), and the Audit and Compensation and Human Resources Committee reports are signed by their members (lines 1376-1380, 5020-5024).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "mcri",
+    "company": "Monarch Casino & Resort, Inc.",
+    "cik": "0000907242",
+    "accession": "0001104659-26-042561",
+    "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465926042561/mcri-20260527xdef14a.htm",
+    "filed": "2026-04-13",
+    "shape": "per_committee_lists — memberships are stated only in the per-committee paragraphs under 'Committees of the Board' (lines 1145, 1151, 1159); the director biographies (lines 1079-1087) name no committees, and the committee report signature blocks (lines 1335-1347, 4945-4957) restate the same compositions.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "mlab",
+    "company": "Mesa Laboratories, Inc.",
+    "cik": "0000724004",
+    "accession": "0000724004-26-000071",
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000071/mlab20250828_def14a.htm",
+    "filed": "2026-07-22",
+    "shape": "per_committee_lists — the director biographies (pages 11-15, lines 578-590) are image-only in the text, so committee membership is stated only in the Audit Committee Report signature block (lines 1555-1561), the Compensation Committee Report signature block (lines 1603-1609) and the Compensation Committee Interlocks sentence (line 1091); no membership is stated for the Nominating and Governance Committee.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "nordson",
+    "company": "Nordson Corporation",
+    "cik": "0000072331",
+    "accession": "0001193125-26-014662",
+    "url": "https://www.sec.gov/Archives/edgar/data/72331/000119312526014662/d895414ddef14a.htm",
+    "filed": "2026-01-16",
+    "shape": "mixed — each director's biography card carries a 'Committees:' line (lines 1069-1373; several wrap onto a second line), and the COMMITTEES OF THE BOARD OF DIRECTORS section lists each standing committee's Members with '(Chair)' after the chair (Audit at lines 1743-1751, Compensation at 1791-1797, Governance and Sustainability at 1829-1835); the Executive Committee's membership appears only on the cards, since line 1733 says only the three standing committees are listed in that section. The Audit Committee report (lines 2373-2383) and the Compensation Committee report (lines 5315-5323) repeat their members as signatories.",
+    "truth": "text-cited"
+  },
+  {
+    "key": "nssc",
+    "company": "Napco Security Technologies, Inc.",
+    "cik": "0000069633",
+    "accession": "0001140361-25-039260",
+    "url": "https://www.sec.gov/Archives/edgar/data/69633/000114036125039260/ny20055703x1_def14a.htm",
+    "filed": "2025-10-24",
+    "shape": "mixed — each independent director's one-line biography in the nominee table states his committees (lines 173, 183, 189, 209), the 'Board Structure and Committee Composition' section restates each committee's current members with the Chairman (lines 485, 495, 511), and the Audit and Compensation Committee reports are signed by their members (lines 613-617, 857-861).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "utmd",
+    "company": "Utah Medical Products, Inc.",
+    "cik": "0000706698",
+    "accession": "0001096906-26-000477",
+    "url": "https://www.sec.gov/Archives/edgar/data/706698/000109690626000477/utmd_def14a.htm",
+    "filed": "2026-04-02",
+    "shape": "mixed — current committee members are identified by footnote markers (1)-(4) on each director's row of the Security Ownership table (rows at lines 818, 826, 834, 842, 850, 868; marker key at lines 918-924; line 1720 states that table is where the current committee members are identified), with the Audit Committee chair stated in Hoyer's biography (line 330), the Board Leadership paragraph (line 1710) and the Audit Committee report (line 1812), and the Compensation and Benefits Committee and Audit Committee reports listing their signatories (lines 1804-1808 and 1824-1832).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "verizon",
+    "company": "Verizon Communications Inc.",
+    "cik": "0000732712",
+    "accession": "0001308179-26-000210",
+    "url": "https://www.sec.gov/Archives/edgar/data/732712/000130817926000210/vz014688_def14a.htm",
+    "filed": "2026-04-06",
+    "shape": "mixed — a proxy-summary 'Committee membership' grid rendered as image marks (lines 662-844, memberships as of April 6, 2026), a 'Committees:' block on each nominee's bio card with '(Chair)' appended to the chaired committee (1621-2361), and a 'Members' list with '(Chair)' on its own line under each committee's description in the Board committees section (2655-2853); the Audit and Human Resources committee reports are signed by members with the chair marked (5843-5849, 11768-11774).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "walmart",
+    "company": "Walmart Inc.",
+    "cik": "0000104169",
+    "accession": "0001193125-26-173673",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+    "filed": "2026-04-23",
+    "shape": "mixed — each nominee card lists 'Board Committees:' with abbreviations and '(Chair)' (lines 1343-2119), and the Board Committees section lists each committee's chair and members by name under the committee heading (lines 2458-2830), restated for the Audit Committee in prose (line 4100), for the NGC chair in prose (line 2398), and in the Audit Committee and CMDC report signature blocks (lines 4169-4177, 5737-5747).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "weys",
+    "company": "Weyco Group, Inc.",
+    "cik": "0000106532",
+    "accession": "0001104659-26-039031",
+    "url": "https://www.sec.gov/Archives/edgar/data/106532/000110465926039031/weys-20260505xdef14a.htm",
+    "filed": "2026-04-02",
+    "shape": "mixed — each nominee's bio heading is followed by role lines ('Chairman of X Committee' / 'Member of X Committee and Y Committee', lines 797-861), and the Committees section restates each committee's full membership in a parenthetical inside its independence sentence (lines 1627, 1641, 1647) without naming chairs; the Audit Committee report is signed by its members with the chair marked (1691-1701).",
+    "truth": "text-cited"
+  },
+  {
+    "key": "3m",
+    "company": "3M Company",
+    "cik": "0000066740",
+    "accession": "0000066740-26-000151",
+    "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+    "filed": "2026-03-25",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "amazon",
+    "company": "Amazon.com, Inc.",
+    "cik": "0001018724",
+    "accession": "0001104659-26-041026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+    "filed": "2026-04-09",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "caterpillar",
+    "company": "Caterpillar Inc.",
+    "cik": "0000018230",
+    "accession": "0001308179-26-000358",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000130817926000358/cat014496-def14a.htm",
+    "filed": "2026-04-30",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "exxon",
+    "company": "Exxon Mobil Corporation",
+    "cik": "0000034088",
+    "accession": "0001193125-26-147614",
+    "url": "https://www.sec.gov/Archives/edgar/data/34088/000119312526147614/d16317ddef14a.htm",
+    "filed": "2026-04-08",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "hurc",
+    "company": "Hurco Companies, Inc.",
+    "cik": "0000315374",
+    "accession": "0001104659-26-007238",
+    "url": "https://www.sec.gov/Archives/edgar/data/315374/000110465926007238/tm261584-1_def14a.htm",
+    "filed": "2026-01-28",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "johnson_johnson",
+    "company": "Johnson & Johnson",
+    "cik": "0000200406",
+    "accession": "0000200406-26-000063",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm",
+    "filed": "2026-03-11",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "jpmorgan",
+    "company": "JPMorgan Chase & Co.",
+    "cik": "0000019617",
+    "accession": "0000019617-26-000096",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+    "filed": "2026-04-06",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "kfrc",
+    "company": "Kforce Inc.",
+    "cik": "0000930420",
+    "accession": "0000930420-26-000013",
+    "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000013/kfrc-20260313.htm",
+    "filed": "2026-03-13",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "microsoft",
+    "company": "Microsoft Corporation",
+    "cik": "0000789019",
+    "accession": "0001193125-25-245150",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+    "filed": "2025-10-21",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "powl",
+    "company": "Powell Industries, Inc.",
+    "cik": "0000080420",
+    "accession": "0001140361-26-000342",
+    "url": "https://www.sec.gov/Archives/edgar/data/80420/000114036126000342/ny20060559x1_def14a.htm",
+    "filed": "2026-01-06",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "procter_gamble",
+    "company": "The Procter & Gamble Company",
+    "cik": "0000080424",
+    "accession": "0001193125-26-372211",
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000119312526372211/pg-20260826.htm",
+    "filed": "2026-08-28",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "target",
+    "company": "Target Corporation",
+    "cik": "0000027419",
+    "accession": "0001628280-26-027508",
+    "url": "https://www.sec.gov/Archives/edgar/data/27419/000162828026027508/tgt-20260426.htm",
+    "filed": "2026-04-27",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  },
+  {
+    "key": "ufpt",
+    "company": "UFP Technologies, Inc.",
+    "cik": "0000914156",
+    "accession": "0001628280-26-028710",
+    "url": "https://www.sec.gov/Archives/edgar/data/914156/000162828026028710/ufpt-20260430.htm",
+    "filed": "2026-04-30",
+    "shape": "matrix",
+    "truth": "verified-reading"
+  }
+]

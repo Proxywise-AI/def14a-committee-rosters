@@ -1,0 +1,3361 @@
+{
+  "note": "Ground truth for the board committee seats a DEF 14A proxy statement states, per director, on 27 filings from the 2026 proxy season. Two kinds of fixture, named by `truth`. `text-cited` (14 filings): every seat was read off the filing's text and carries the 1-based line of converter.py's output for the filing (line-identical to the authors' converter) and a verbatim quote from that line; the quotes were checked mechanically against the text. `verified-reading` (13 filings whose roster is a membership matrix): the seats were read from the table's HTML by a dedicated model pass and verified against hand-counted seats and chairs per committee, with spot checks by hand; they carry no line or quote. `slate` lists the directors standing for election; a seat whose director is not on the slate belongs to a director the filing says is leaving and is scored separately. `imageSeats` are seats the filing states only in a picture. `futureRoles` are roles the filing states as taking effect at or after the meeting.",
+  "fixtures": [
+    {
+      "key": "cnxn",
+      "company": "PC Connection, Inc.",
+      "cik": "0001050377",
+      "accession": "0001104659-26-036089",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050377/000110465926036089/cnxn-20260513xdef14a.htm",
+      "filed": "2026-03-27",
+      "shape": "mixed — each nominee's biographical paragraph under 'Nominees for Election to our Board of Directors' (lines 869-895) states that nominee's committee seats in prose, and a 'Board Committees' section restates each committee's Chair and members in a per-committee paragraph (Audit 1049, Compensation 1135, Corporate Development 1143); the Compensation Committee and Audit Committee reports carry signature blocks (5081-5085, 5621-5627) and the interlocks paragraph (5095) restates the Compensation Committee.",
+      "truth": "text-cited",
+      "slate": [
+        "Patricia Gallup",
+        "David Beffa-Negrini",
+        "Jay Bothwick",
+        "Barbara Duckett",
+        "Jack Ferguson",
+        "Gary Kinyon"
+      ],
+      "seats": [
+        {
+          "director": "David Beffa-Negrini",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 873,
+          "quote": "serves as a member of the Audit Committee"
+        },
+        {
+          "director": "Jay Bothwick",
+          "committee": "Corporate Development Committee",
+          "role": "chair",
+          "line": 877,
+          "quote": "Mr. Bothwick also serves as the Chair of the Corporate Development Committee, or the CDC"
+        },
+        {
+          "director": "Barbara Duckett",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 881,
+          "quote": "serves as the Chair of the Compensation Committee and as a member of the Audit and Corporate Development Committees"
+        },
+        {
+          "director": "Barbara Duckett",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 881,
+          "quote": "serves as the Chair of the Compensation Committee and as a member of the Audit and Corporate Development Committees"
+        },
+        {
+          "director": "Barbara Duckett",
+          "committee": "Corporate Development Committee",
+          "role": "member",
+          "line": 881,
+          "quote": "serves as the Chair of the Compensation Committee and as a member of the Audit and Corporate Development Committees"
+        },
+        {
+          "director": "Jack Ferguson",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 885,
+          "quote": "serves as the Chair of the Audit Committee and as a member of the Compensation and Corporate Development Committees"
+        },
+        {
+          "director": "Jack Ferguson",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 885,
+          "quote": "serves as the Chair of the Audit Committee and as a member of the Compensation and Corporate Development Committees"
+        },
+        {
+          "director": "Jack Ferguson",
+          "committee": "Corporate Development Committee",
+          "role": "member",
+          "line": 885,
+          "quote": "serves as the Chair of the Audit Committee and as a member of the Compensation and Corporate Development Committees"
+        }
+      ],
+      "notes": "One entry per (director, committee); each is cited to the nominee's biography line. The per-committee paragraphs agree with every biography: line 1049 'The Chair of our Audit Committee is Mr. Ferguson and the members are Ms. Duckett and Mr. Beffa-Negrini.'; line 1135 'The Chair of the Compensation Committee is Ms. Duckett and the other member is Mr. Ferguson.'; line 1143 'The Chair of the CDC is Mr. Bothwick and the members are Ms. Duckett and Mr. Ferguson.' (the filing abbreviates the Corporate Development Committee as 'the CDC', line 877). The interlocks paragraph at 5095 ('The members of the Compensation Committee are Ms. Duckett and Mr. Ferguson.') and the report signature blocks (Compensation: 'Barbara Duckett, Chair' then 'Jack Ferguson'; Audit: 'Jack Ferguson, Chair', 'Barbara Duckett', 'David Beffa-Negrini') agree. Board-level roles excluded: Patricia Gallup is Chair of the Board (869); Jay Bothwick is Vice Chair and Secretary of the Board (877). No nominating committee exists (1155: 'We do not have a standing nominating committee'). A 'Subcommittee' that administered cash performance awards is referenced at 4945 and 4951 with no members named, so it is not recorded. The biographies of Patricia Gallup (869) and Gary Kinyon (895) name no committee and no passage states that either sits on none; line 967 says all standing-committee members are independent and 1307 sets fees for committee service, but that is inference, so both are recorded as stated: false. Kinyon's 202"
+    },
+    {
+      "key": "coca_cola",
+      "company": "The Coca-Cola Company",
+      "cik": "0000021344",
+      "accession": "0001104659-26-028215",
+      "url": "https://www.sec.gov/Archives/edgar/data/21344/000110465926028215/ko-20260429xdef14a.htm",
+      "filed": "2026-03-16",
+      "shape": "mixed — the primary statement is a 'COMMITTEES:' line in each nominee's biography card under 'BIOGRAPHICAL INFORMATION ABOUT OUR DIRECTOR NOMINEES' (lines 4899-6361, e.g. 'COMMITTEES: Audit; Finance (Chair); Executive'); the same memberships appear as letter codes under 'Committee Membership:' in the proxy-summary nominee grid (2411-3293, legend at 2613-2623: A Audit, T Talent and Compensation, G Corporate Governance and Sustainability, F Finance, E Executive; the chair marker did not survive text conversion) and as per-committee member tables 'as of December 31, 2025' under 'Our Board conducts a portion of its work through the committee structure' (7603-8129, first and last names on separate lines with 'Chair' on its own line).",
+      "truth": "text-cited",
+      "slate": [
+        "Herb Allen",
+        "Bela Bajaria",
+        "Ana Botín",
+        "Henrique Braun",
+        "Christopher C. Davis",
+        "Carolyn Everson",
+        "Thomas S. Gayner",
+        "Max Levchin",
+        "Amity Millhiser",
+        "James Quincey",
+        "Caroline J. Tsay",
+        "David B. Weinberg"
+      ],
+      "seats": [
+        {
+          "director": "Herb Allen",
+          "committee": "Corporate Governance and Sustainability Committee",
+          "role": "chair",
+          "line": 4857,
+          "quote": "COMMITTEES: Corporate Governance and Sustainability (Chair); Finance"
+        },
+        {
+          "director": "Herb Allen",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 4857,
+          "quote": "COMMITTEES: Corporate Governance and Sustainability (Chair); Finance"
+        },
+        {
+          "director": "Bela Bajaria",
+          "committee": "Talent and Compensation Committee",
+          "role": "member",
+          "line": 4973,
+          "quote": "COMMITTEES: Talent and Compensation"
+        },
+        {
+          "director": "Ana Botín",
+          "committee": "Corporate Governance and Sustainability Committee",
+          "role": "member",
+          "line": 5103,
+          "quote": "COMMITTEES: Corporate Governance and Sustainability; Finance"
+        },
+        {
+          "director": "Ana Botín",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 5103,
+          "quote": "COMMITTEES: Corporate Governance and Sustainability; Finance"
+        },
+        {
+          "director": "Christopher C. Davis",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 5379,
+          "quote": "COMMITTEES: Audit; Finance (Chair); Executive"
+        },
+        {
+          "director": "Christopher C. Davis",
+          "committee": "Finance Committee",
+          "role": "chair",
+          "line": 5379,
+          "quote": "COMMITTEES: Audit; Finance (Chair); Executive"
+        },
+        {
+          "director": "Christopher C. Davis",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 5379,
+          "quote": "COMMITTEES: Audit; Finance (Chair); Executive"
+        },
+        {
+          "director": "Carolyn Everson",
+          "committee": "Talent and Compensation Committee",
+          "role": "chair",
+          "line": 5513,
+          "quote": "COMMITTEES: Talent and Compensation (Chair); Finance"
+        },
+        {
+          "director": "Carolyn Everson",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 5513,
+          "quote": "COMMITTEES: Talent and Compensation (Chair); Finance"
+        },
+        {
+          "director": "Thomas S. Gayner",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 5647,
+          "quote": "COMMITTEES: Finance"
+        },
+        {
+          "director": "Max Levchin",
+          "committee": "Talent and Compensation Committee",
+          "role": "member",
+          "line": 5791,
+          "quote": "COMMITTEES: Talent and Compensation"
+        },
+        {
+          "director": "Amity Millhiser",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 5917,
+          "quote": "COMMITTEES: Audit (Chair)"
+        },
+        {
+          "director": "James Quincey",
+          "committee": "Executive Committee",
+          "role": "chair",
+          "line": 6043,
+          "quote": "COMMITTEES: Executive (Chair)"
+        },
+        {
+          "director": "Caroline J. Tsay",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 6183,
+          "quote": "COMMITTEES: Audit"
+        },
+        {
+          "director": "David B. Weinberg",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 6319,
+          "quote": "COMMITTEES: Audit; Corporate Governance and Sustainability; Executive"
+        },
+        {
+          "director": "David B. Weinberg",
+          "committee": "Corporate Governance and Sustainability Committee",
+          "role": "member",
+          "line": 6319,
+          "quote": "COMMITTEES: Audit; Corporate Governance and Sustainability; Executive"
+        },
+        {
+          "director": "David B. Weinberg",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 6319,
+          "quote": "COMMITTEES: Audit; Corporate Governance and Sustainability; Executive"
+        },
+        {
+          "director": "Maria Elena Lagomasino",
+          "committee": "Talent and Compensation Committee",
+          "role": "member",
+          "line": 7767,
+          "quote": "Ms. Lagomasino will serve on the Committee until the 2026 Annual Meeting"
+        },
+        {
+          "director": "Maria Elena Lagomasino",
+          "committee": "Corporate Governance and Sustainability Committee",
+          "role": "member",
+          "line": 7921,
+          "quote": "Ms. Lagomasino will serve on the Committee until the 2026 Annual Meeting"
+        }
+      ],
+      "notes": "NAMES: the biography-card headings print names in capitals ('HERB ALLEN', 'ANA BOTÍN', 'CHRISTOPHER C. DAVIS'); the title-case forms used here are the filing's own prose spellings at line 10003 ('Herb Allen', 'Ana Botín', 'Christopher C. Davis', 'Thomas S. Gayner', 'Caroline J. Tsay', 'David B. Weinberg', 'Amity Millhiser', 'Bela Bajaria', 'Carolyn Everson', 'Max Levchin') and 10005 ('James Quincey', 'Henrique Braun'). NON-SLATE DIRECTOR: Maria Elena Lagomasino is a sitting director not on the slate (line 4703: 'Maria Elena Lagomasino has reached the age of 76 and therefore has not been renominated for election as a Director at the 2026 Annual Meeting.'); the committee tables list her on Talent and Compensation (7765-7767) and Corporate Governance and Sustainability (7911-7913) with footnote (2) at 7811 and 7965 saying she serves on each Committee until the 2026 Annual Meeting, and the compensation committee report signatories at 14481-14489 (Everson Chair, Bajaria, Lagomasino, Levchin) include her. Her two seats are current as of the filing and are recorded; drop them if only nominees are wanted. Her cited lines are the footnotes, whose committee comes from the table each sits under (7741 'TALENT and COMPENSATION Committee', 7887 'Corporate Governance and Sustainability Committee'). SHORT LINES: the card lines for Thomas S. Gayner (5689 'COMMITTEES: Finance', 19 chars) and Caroline J. Tsay (6225 'COMMITTEES: Audit', 17 chars) and Henrique Braun (5289 'COMMITTEES: None', 16 c"
+    },
+    {
+      "key": "expo",
+      "company": "Exponent, Inc.",
+      "cik": "0000851520",
+      "accession": "0001193125-26-163945",
+      "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526163945/expo-20260416.htm",
+      "filed": "2026-04-20",
+      "shape": "one_committee_tables — one table (lines 387-489) with a row per committee listing its current members one name per line, the chair marked with an em dash and 'Chairperson'; the director bios (277-370) state no committee memberships, and the Audit and Human Resources Committee report signature blocks (708-716, 1187-1195) repeat the same members.",
+      "truth": "text-cited",
+      "slate": [
+        "George H. Brown",
+        "Catherine Ford Corrigan, Ph.D.",
+        "Carol Lindstrom",
+        "Karen A. Richardson",
+        "Richard L. Schlenker Jr.",
+        "Debra L. Zumwalt"
+      ],
+      "seats": [
+        {
+          "director": "George H. Brown",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 399,
+          "quote": "George H. Brown—Chairperson"
+        },
+        {
+          "director": "Carol Lindstrom",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 401,
+          "quote": "Carol Lindstrom"
+        },
+        {
+          "director": "Karen A. Richardson",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 403,
+          "quote": "Karen A. Richardson"
+        },
+        {
+          "director": "Debra L. Zumwalt",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 405,
+          "quote": "Debra L. Zumwalt"
+        },
+        {
+          "director": "Debra L. Zumwalt",
+          "committee": "Human Resources Committee",
+          "role": "chair",
+          "line": 427,
+          "quote": "Debra L. Zumwalt—Chairperson"
+        },
+        {
+          "director": "George H. Brown",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 429,
+          "quote": "George H. Brown"
+        },
+        {
+          "director": "Carol Lindstrom",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 431,
+          "quote": "Carol Lindstrom"
+        },
+        {
+          "director": "Karen A. Richardson",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 433,
+          "quote": "Karen A. Richardson"
+        },
+        {
+          "director": "Carol Lindstrom",
+          "committee": "Nominating and Governance Committee",
+          "role": "chair",
+          "line": 460,
+          "quote": "Carol Lindstrom—Chairperson"
+        },
+        {
+          "director": "George H. Brown",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 462,
+          "quote": "George H. Brown"
+        },
+        {
+          "director": "Karen A. Richardson",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 464,
+          "quote": "Karen A. Richardson"
+        },
+        {
+          "director": "Debra L. Zumwalt",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 466,
+          "quote": "Debra L. Zumwalt"
+        }
+      ],
+      "notes": "SOURCES: memberships are stated only in the committee table (387-489), which the filing calls the current composition (line 387: 'The following table describes the Board’s committees including their current composition.' and 'The members of each committee are all independent directors'). The table's committee headings are 'AUDIT COMMITTEE' (397), 'HUMAN RESOURCES' / 'COMMITTEE' (423-425) and 'NOMINATING AND' / 'GOVERNANCE' / 'COMMITTEE' (454-458); each name sits on its own line below the heading, so the cited line names the director and the heading a few lines above names the committee. Corroborating sources, all agreeing: Audit Committee report signatures 710-716 ('George H. Brown, Chairperson', 'Carol Lindstrom', 'Karen A. Richardson', 'Debra L. Zumwalt'); Human Resources Committee report signatures 1189-1195 ('Debra L. Zumwalt, Chairperson', 'George H. Brown', 'Carol Lindstrom', 'Karen A. Richardson'); the fiscal-2025 interlocks sentence 1052 ('During fiscal 2025, Mr. Brown, Ms. Lindstrom, Ms. Richardson, and Ms. Zumwalt served as members of the Human Resources Committee'). No passage disagrees. QUOTE LENGTH: the table prints one name per line, so most cited lines are shorter than 25 characters; each such quote is the entire line, verbatim. The chair mark is an em dash (U+2014) with no spaces: 'George H. Brown—Chairperson'. SLATE: six nominees (line 265, 'Six directors are to be elected'). Paul R. Johnston, Ph.D., the current Chairman of the Board and an independent direct"
+    },
+    {
+      "key": "general_mills",
+      "company": "General Mills, Inc.",
+      "cik": "0000040704",
+      "accession": "0001628280-26-056619",
+      "url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026056619/gis-20260810.htm",
+      "filed": "2026-08-13",
+      "shape": "mixed — memberships are stated in four places that all agree: per-director cards with a 'Committees' heading followed by the committee names in capitals with '(CHAIR)' (2705-3607), a 'Members:' list per committee with '(Chair)' under 'Board Committees and Their Functions' (4659-4855, the cited lines), a Committee Chairs sidebar (4499-4569), and the Compensation and Talent (7011-7017) and Audit (11189-11197) committee report signatures.",
+      "truth": "text-cited",
+      "slate": [
+        "Joan L. Bottarini",
+        "Benno O. Dorer",
+        "Jeffrey L. Harmening",
+        "Maria G. Henry",
+        "Jo Ann Jenkins",
+        "Elizabeth C. Lempres",
+        "Dana M. McNabb",
+        "John G. Morikis",
+        "Diane L. Neal",
+        "Maria A. Sastre",
+        "Eric D. Sprunk",
+        "Jorge A. Uribe"
+      ],
+      "seats": [
+        {
+          "director": "Eric D. Sprunk",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 4581,
+          "quote": "Eric D. Sprunk (Chair)"
+        },
+        {
+          "director": "Joan L. Bottarini",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4649,
+          "quote": "Joan L. Bottarini"
+        },
+        {
+          "director": "Benno O. Dorer",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4695,
+          "quote": "Benno O. Dorer"
+        },
+        {
+          "director": "Elizabeth C. Lempres",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4647,
+          "quote": "Elizabeth C. Lempres"
+        },
+        {
+          "director": "John G. Morikis",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4733,
+          "quote": "John G. Morikis"
+        },
+        {
+          "director": "Elizabeth C. Lempres",
+          "committee": "Compensation and Talent Committee",
+          "role": "chair",
+          "line": 4647,
+          "quote": "Elizabeth C. Lempres (Chair)"
+        },
+        {
+          "director": "Joan L. Bottarini",
+          "committee": "Compensation and Talent Committee",
+          "role": "member",
+          "line": 4649,
+          "quote": "Joan L. Bottarini"
+        },
+        {
+          "director": "Maria A. Sastre",
+          "committee": "Compensation and Talent Committee",
+          "role": "member",
+          "line": 4693,
+          "quote": "Maria A. Sastre"
+        },
+        {
+          "director": "Jorge A. Uribe",
+          "committee": "Compensation and Talent Committee",
+          "role": "member",
+          "line": 4755,
+          "quote": "Jorge A. Uribe"
+        },
+        {
+          "director": "Maria A. Sastre",
+          "committee": "Corporate Governance Committee",
+          "role": "chair",
+          "line": 4693,
+          "quote": "Maria A. Sastre (Chair)"
+        },
+        {
+          "director": "Benno O. Dorer",
+          "committee": "Corporate Governance Committee",
+          "role": "member",
+          "line": 4695,
+          "quote": "Benno O. Dorer"
+        },
+        {
+          "director": "Maria G. Henry",
+          "committee": "Corporate Governance Committee",
+          "role": "member",
+          "line": 4757,
+          "quote": "Maria G. Henry"
+        },
+        {
+          "director": "Jo Ann Jenkins",
+          "committee": "Corporate Governance Committee",
+          "role": "member",
+          "line": 4759,
+          "quote": "Jo Ann Jenkins"
+        },
+        {
+          "director": "Eric D. Sprunk",
+          "committee": "Corporate Governance Committee",
+          "role": "member",
+          "line": 4701,
+          "quote": "Eric D. Sprunk"
+        },
+        {
+          "director": "Diane L. Neal",
+          "committee": "Finance Committee",
+          "role": "chair",
+          "line": 4731,
+          "quote": "Diane L. Neal (Chair)"
+        },
+        {
+          "director": "John G. Morikis",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 4733,
+          "quote": "John G. Morikis"
+        },
+        {
+          "director": "Steve Odland",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 4763,
+          "quote": "Steve Odland"
+        },
+        {
+          "director": "Jorge A. Uribe",
+          "committee": "Public Responsibility Committee",
+          "role": "chair",
+          "line": 4755,
+          "quote": "Jorge A. Uribe (Chair)"
+        },
+        {
+          "director": "Maria G. Henry",
+          "committee": "Public Responsibility Committee",
+          "role": "member",
+          "line": 4757,
+          "quote": "Maria G. Henry"
+        },
+        {
+          "director": "Jo Ann Jenkins",
+          "committee": "Public Responsibility Committee",
+          "role": "member",
+          "line": 4759,
+          "quote": "Jo Ann Jenkins"
+        },
+        {
+          "director": "Diane L. Neal",
+          "committee": "Public Responsibility Committee",
+          "role": "member",
+          "line": 4761,
+          "quote": "Diane L. Neal"
+        },
+        {
+          "director": "Steve Odland",
+          "committee": "Public Responsibility Committee",
+          "role": "member",
+          "line": 4763,
+          "quote": "Steve Odland"
+        }
+      ],
+      "notes": "SOURCES (all agree, no conflicts): (1) 'Board Committees and Their Functions' (4659-4855) — the cited lines — lists each committee's 'Members:' one name per line with '(Chair)'; committee headings: 'Audit Committee' (4667), 'Compensation and Talent Committee' (4733), 'Corporate Governance Committee' (4779), 'Finance Committee' (4817), 'Public Responsibility Committee' (4841); line 4661 says 'The board has five standing committees that are each composed entirely of independent directors.' Each cited line names the director; the committee heading sits a few lines above it. (2) Director cards: a 'Committees' heading then the committee names in capitals with '(CHAIR)' — Bottarini 2707 'AUDIT, COMPENSATION AND TALENT'; Dorer 2785 'AUDIT, CORPORATE GOVERNANCE'; Henry 2955 'CORPORATE GOVERNANCE,' + 2957 'PUBLIC RESPONSIBILITY'; Jenkins 3033 'CORPORATE GOVERNANCE,' + 3035 'PUBLIC RESPONSIBILITY'; Lempres 3117 'AUDIT, COMPENSATION AND TALENT (CHAIR)'; Morikis 3273 'AUDIT, FINANCE'; Neal 3359 'FINANCE (CHAIR), PUBLIC RESPONSIBILITY'; Sastre 3445 'COMPENSATION AND TALENT, CORPORATE' + 3447 'GOVERNANCE (CHAIR)' (the Corporate Governance name is split across the two lines, and the chair mark is on the second); Sprunk 3523 'AUDIT (CHAIR), CORPORATE GOVERNANCE'; Uribe 3605 'COMPENSATION AND TALENT,' + 3607 'PUBLIC RESPONSIBILITY (CHAIR)'. The Harmening (2867-2875) and McNabb (3187-3193) cards carry no 'Committees' heading. (3) Committee Chairs sidebar (4499-4569): Eric D. Sprunk 'Chair, Aud"
+    },
+    {
+      "key": "hubbell",
+      "company": "Hubbell Incorporated",
+      "cik": "0000048898",
+      "accession": "0001308179-26-000121",
+      "url": "https://www.sec.gov/Archives/edgar/data/48898/000130817926000121/hubb014454-def14a.htm",
+      "filed": "2026-03-23",
+      "shape": "mixed — memberships are stated three times and all three agree: (1) nominee summary cards (lines 740-874) whose 'Committees:' lines (752, 758, 764, 792, 798, 804, 834, 840, 846, 868, 874) are separated from the director names by the layout and attach to a director only through the adjacent 'Director since:' year; (2) per-director biography cards with a 'COMMITTEES:' bullet list beside the name (lines 1517-2192); (3) per-committee lists under 'Board Committees' (lines 2486-2713), each headed '<NAME> (Chair)' then 'Members:'; the Compensation (5202-5212) and Audit (9455-9465) report signature blocks restate the same rosters.",
+      "truth": "text-cited",
+      "slate": [
+        "Edward H. Baine",
+        "Gerben W. Bakker",
+        "Carlos M. Cardoso",
+        "Debra L. Dial",
+        "Anthony J. Guzzi",
+        "Rhett A. Hernandez",
+        "Neal J. Keating",
+        "Bonnie C. Lind",
+        "John F. Malloy",
+        "Jennifer M. Pollino",
+        "Garrick J. Rochow"
+      ],
+      "seats": [
+        {
+          "director": "Bonnie C. Lind",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 849,
+          "quote": "Audit (Chair), Executive, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Debra L. Dial",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1721,
+          "quote": "AUDIT COMMITTEE FINANCIAL EXPERT"
+        },
+        {
+          "director": "Rhett A. Hernandez",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 2291,
+          "quote": "Each member of the Audit Committee other than Messrs. Hernandez and Rochow"
+        },
+        {
+          "director": "John F. Malloy",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 739,
+          "quote": "Audit, Executive, Finance (Chair)"
+        },
+        {
+          "director": "Garrick J. Rochow",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 2291,
+          "quote": "Each member of the Audit Committee other than Messrs. Hernandez and Rochow"
+        },
+        {
+          "director": "Carlos M. Cardoso",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 2300,
+          "quote": "CARLOS M. CARDOSO (Chair)"
+        },
+        {
+          "director": "Edward H. Baine",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 2353,
+          "quote": "Mr. Baine became a member of the Compensation Committee when he was appointed to"
+        },
+        {
+          "director": "Anthony J. Guzzi",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 733,
+          "quote": "Compensation, Executive, Finance, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Neal J. Keating",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 815,
+          "quote": "Compensation, Executive, Nominating and Corporate Governance (Chair)"
+        },
+        {
+          "director": "Jennifer M. Pollino",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 779,
+          "quote": "Compensation, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Gerben W. Bakker",
+          "committee": "Executive Committee",
+          "role": "chair",
+          "line": 2362,
+          "quote": "GERBEN W. BAKKER (Chair)"
+        },
+        {
+          "director": "Carlos M. Cardoso",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 809,
+          "quote": "Compensation (Chair), Executive, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Anthony J. Guzzi",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 733,
+          "quote": "Compensation, Executive, Finance, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Neal J. Keating",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 815,
+          "quote": "Compensation, Executive, Nominating and Corporate Governance (Chair)"
+        },
+        {
+          "director": "Bonnie C. Lind",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 849,
+          "quote": "Audit (Chair), Executive, Nominating and Corporate Governance"
+        },
+        {
+          "director": "John F. Malloy",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 739,
+          "quote": "Audit, Executive, Finance (Chair)"
+        },
+        {
+          "director": "John F. Malloy",
+          "committee": "Finance Committee",
+          "role": "chair",
+          "line": 739,
+          "quote": "Audit, Executive, Finance (Chair)"
+        },
+        {
+          "director": "Edward H. Baine",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 2441,
+          "quote": "Mr. Baine became a member of the Finance Committee when he was appointed to the"
+        },
+        {
+          "director": "Debra L. Dial",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 2401,
+          "quote": "Debra L. Dial"
+        },
+        {
+          "director": "Anthony J. Guzzi",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 733,
+          "quote": "Compensation, Executive, Finance, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Rhett A. Hernandez",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 2405,
+          "quote": "Rhett A. Hernandez"
+        },
+        {
+          "director": "Garrick J. Rochow",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 2407,
+          "quote": "Garrick J. Rochow"
+        },
+        {
+          "director": "Neal J. Keating",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "chair",
+          "line": 815,
+          "quote": "Compensation, Executive, Nominating and Corporate Governance (Chair)"
+        },
+        {
+          "director": "Carlos M. Cardoso",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 809,
+          "quote": "Compensation (Chair), Executive, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Anthony J. Guzzi",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 733,
+          "quote": "Compensation, Executive, Finance, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Bonnie C. Lind",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 849,
+          "quote": "Audit (Chair), Executive, Nominating and Corporate Governance"
+        },
+        {
+          "director": "Jennifer M. Pollino",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 2500,
+          "quote": "Ms. Pollino became a member of the NCGC on May 6, 2025."
+        }
+      ],
+      "notes": "Slate: 11 nominees (line 705 'Election of 11 Directors'), each a current director (714); names are as printed on the biography cards (some split across two lines: 'Gerben / W. Bakker' 1578-1579, 'Carlos / M. Cardoso' 1650-1651, 'Debra / L. Dial' 1697-1698, 'Anthony / J. Guzzi' 1772-1773, 'Bonnie / C. Lind' 1952-1953). 'NCGC' is the filing's abbreviation for the Nominating and Corporate Governance Committee (715, 2701). Full rosters from the per-committee lists (2486-2713): Audit — Lind (Chair) 2488, Dial 2492, Hernandez 2494, Malloy 2496, Rochow 2498-2499; Compensation — Cardoso (Chair) 2557, Baine 2561, Guzzi 2563, Keating 2565, Pollino 2567; Executive — Bakker (Chair) 2619, Cardoso 2623, Guzzi 2625, Keating 2627, Lind 2629, Malloy 2631; Finance — Malloy (Chair) 2652, Baine 2656, Dial 2658, Guzzi 2660, Hernandez 2662, Rochow 2664; NCGC — Keating (Chair) 2703, Cardoso 2707, Guzzi 2709, Lind 2711, Pollino 2713. Bio-card COMMITTEES bullets (same rosters): Baine 1519-1521, Bakker 1583, Cardoso 1655-1660, Dial 1702-1704, Guzzi 1777-1784, Hernandez 1821-1823, Keating 1894-1899, Lind 1957-1962, Malloy 2056-2060, Pollino 2104-2107, Rochow 2190-2192. CITATION CAVEATS: many direct statements are lines shorter than the 25-character quote minimum (bio bullets such as '• Audit', list names such as 'Debra L. Dial', chair headings such as 'BONNIE C. LIND (Chair)' at 22 chars). Where a 25+ character line exists it is cited: summary-card lines 758 (Guzzi), 764 (Malloy), 804 (Pollino), 834 (C"
+    },
+    {
+      "key": "jbss",
+      "company": "John B. Sanfilippo & Son, Inc.",
+      "cik": "0000880117",
+      "accession": "0001193125-26-390588",
+      "url": "https://www.sec.gov/Archives/edgar/data/880117/000119312526390588/jbss-20260914.htm",
+      "filed": "2026-09-14",
+      "shape": "mixed — each Common Stock nominee's biography paragraph states her committees and chair role (lines 468, 489, 519/523), the 'Overview of Our Committees' section gives one small block per committee with a 'Members (all independent directors)' bullet list marking the Chairperson (lines 1127-1212), and the Audit and Compensation and Human Resources Committee reports are signed by their members (lines 1376-1380, 5020-5024).",
+      "truth": "text-cited",
+      "slate": [
+        "Pamela Forbes Lieberman",
+        "Mercedes Romero",
+        "Ellen C. Taaffe",
+        "Jasper B. Sanfilippo, Jr.",
+        "Jeffrey T. Sanfilippo",
+        "James J. Sanfilippo",
+        "John E. Sanfilippo",
+        "Lisa A. Sanfilippo",
+        "James A. Valentine",
+        "Michael J. Valentine"
+      ],
+      "seats": [
+        {
+          "director": "Pamela Forbes Lieberman",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 453,
+          "quote": "is a member of our Compensation and Human Resources Committee and Nominating and Governance Committee and is the Chairperson of our Audit Committee."
+        },
+        {
+          "director": "Pamela Forbes Lieberman",
+          "committee": "Compensation and Human Resources Committee",
+          "role": "member",
+          "line": 453,
+          "quote": "is a member of our Compensation and Human Resources Committee and Nominating and Governance Committee and is the Chairperson of our Audit Committee."
+        },
+        {
+          "director": "Pamela Forbes Lieberman",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 453,
+          "quote": "is a member of our Compensation and Human Resources Committee and Nominating and Governance Committee and is the Chairperson of our Audit Committee."
+        },
+        {
+          "director": "Mercedes Romero",
+          "committee": "Nominating and Governance Committee",
+          "role": "chair",
+          "line": 474,
+          "quote": "Ms. Romero is the Chairperson of our Nominating and Governance Committee since October 2024."
+        },
+        {
+          "director": "Mercedes Romero",
+          "committee": "Compensation and Human Resources Committee",
+          "role": "member",
+          "line": 474,
+          "quote": "is a member of our Compensation and Human Resources Committee, and Audit Committee."
+        },
+        {
+          "director": "Mercedes Romero",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 474,
+          "quote": "is a member of our Compensation and Human Resources Committee, and Audit Committee."
+        },
+        {
+          "director": "Ellen C. Taaffe",
+          "committee": "Compensation and Human Resources Committee",
+          "role": "chair",
+          "line": 504,
+          "quote": "the Chairperson of our Compensation and Human Resources Committee, a member of our Audit Committee, and a member of our"
+        },
+        {
+          "director": "Ellen C. Taaffe",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 504,
+          "quote": "the Chairperson of our Compensation and Human Resources Committee, a member of our Audit Committee, and a member of our"
+        },
+        {
+          "director": "Ellen C. Taaffe",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 508,
+          "quote": "Nominating and Governance Committee, which she previously chaired."
+        }
+      ],
+      "notes": "Bios and the per-committee member lists agree on every seat. Per-committee lists (Overview of Our Committees): Compensation and Human Resources Committee = Ms. Taaffe (Chairperson), Ms. Forbes Lieberman, Ms. Romero (lines 1136, 1139, 1142); Nominating and Governance Committee = Ms. Romero (Chairperson), Ms. Taaffe, Ms. Forbes Lieberman (lines 1172, 1175, 1178); Audit Committee = Ms. Forbes Lieberman (Chairperson), Ms. Romero, Ms. Taaffe (lines 1206, 1209, 1212). Those bullet lines are under 25 characters, so the bio sentences are the cited lines. Report signatures agree: Audit = Pamela Forbes Lieberman, Chairperson / Mercedes Romero / Ellen C. Taaffe (lines 1376-1380); Compensation and Human Resources = Ellen C. Taaffe, Chairperson / Pamela Forbes Lieberman / Mercedes Romero (lines 5020-5024). Line 1246 says the same three were the sole members of the Compensation and Human Resources Committee during fiscal 2026, and line 6051 says that committee consists of the same three members as the Audit Committee. Ellen C. Taaffe's Nominating and Governance Committee membership is stated across a page break: line 519 ends 'a member of our' and, after the page number on line 521, line 523 continues 'Nominating and Governance Committee, which she previously chaired.' — a current seat, cited to the line naming the committee; her past chairing of it is history. Mercedes Romero has chaired the Nominating and Governance Committee 'since October 2024' (line 489), a current seat. Ellen C. Taaf"
+    },
+    {
+      "key": "mcri",
+      "company": "Monarch Casino & Resort, Inc.",
+      "cik": "0000907242",
+      "accession": "0001104659-26-042561",
+      "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465926042561/mcri-20260527xdef14a.htm",
+      "filed": "2026-04-13",
+      "shape": "per_committee_lists — memberships are stated only in the per-committee paragraphs under 'Committees of the Board' (lines 1145, 1151, 1159); the director biographies (lines 1079-1087) name no committees, and the committee report signature blocks (lines 1335-1347, 4945-4957) restate the same compositions.",
+      "truth": "text-cited",
+      "slate": [
+        "John Farahi",
+        "Bob Farahi",
+        "Paul Andrews",
+        "Craig F. Sullivan",
+        "Hope S. Taitz"
+      ],
+      "seats": [
+        {
+          "director": "Craig F. Sullivan",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 1151,
+          "quote": "Craig F. Sullivan, Chairman of the Audit Committee"
+        },
+        {
+          "director": "Paul Andrews",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1145,
+          "quote": "The Audit Committee is currently comprised of Craig F. Sullivan, Paul Andrews and Hope S. Taitz"
+        },
+        {
+          "director": "Hope S. Taitz",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1145,
+          "quote": "The Audit Committee is currently comprised of Craig F. Sullivan, Paul Andrews and Hope S. Taitz"
+        },
+        {
+          "director": "Hope S. Taitz",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 1159,
+          "quote": "The Compensation Committee is currently comprised of Hope S. Taitz, Chair"
+        },
+        {
+          "director": "Craig F. Sullivan",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1159,
+          "quote": "The Compensation Committee is currently comprised of Hope S. Taitz, Chair, Craig F. Sullivan and Paul Andrews"
+        },
+        {
+          "director": "Paul Andrews",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1159,
+          "quote": "The Compensation Committee is currently comprised of Hope S. Taitz, Chair, Craig F. Sullivan and Paul Andrews"
+        }
+      ],
+      "notes": "Slate: the directors-and-nominees table (lines 933-1059) lists John Farahi, Bob Farahi, Paul Andrews, Craig F. Sullivan and Hope S. Taitz. Nominee lists disagree internally: lines 109 and 467 name three nominees (John Farahi, Craig F. Sullivan, Paul Andrews, terms to 2028), while line 885 and the proxy card (lines 5041-5044) add Hope S. Taitz as a nominee for the term expiring 2027 (her card at 1045-1059 reads 'Director since 2026', 'Nominee for term expiring in 2027'); line 885 also misspells Sullivan as 'CRAIG S. SULLIVAN'. Bob Farahi is a continuing director (term expiring 2027). Name variants: the inline biography heading at line 1087 prints 'HOPE TAITZ' without the middle initial; the table (1045), the committee paragraphs (1145, 1159) and the signature blocks (1335, 4957) print 'Hope S. Taitz', which is used here. Bio headings at 1079-1085 are uppercase ('JOHN FARAHI', 'BOB FARAHI', 'PAUL ANDREWS', 'CRAIG F. SULLIVAN'). Chairs: Craig F. Sullivan chairs Audit (1151 'Chairman of the Audit Committee'; corroborated by the Audit Committee Report signature at 4945 'Craig F. Sullivan , Chair' — note the stray space before the comma — and footnote (3) at 4557 '$25,000 of fees for Audit committee chair'); Hope S. Taitz chairs Compensation (1159; corroborated by the Compensation Committee Report signature at 1335 'Hope S. Taitz, Chair', with 1341 'Paul Andrews, Member' and 1347 'Craig F. Sullivan, Member'; Audit report members at 4951 'Paul Andrews, Member' and 4957 'Hope S. Tait"
+    },
+    {
+      "key": "mlab",
+      "company": "Mesa Laboratories, Inc.",
+      "cik": "0000724004",
+      "accession": "0000724004-26-000071",
+      "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000071/mlab20250828_def14a.htm",
+      "filed": "2026-07-22",
+      "shape": "per_committee_lists — the director biographies (pages 11-15, lines 578-590) are image-only in the text, so committee membership is stated only in the Audit Committee Report signature block (lines 1555-1561), the Compensation Committee Report signature block (lines 1603-1609) and the Compensation Committee Interlocks sentence (line 1091); no membership is stated for the Nominating and Governance Committee.",
+      "truth": "text-cited",
+      "slate": [
+        "John Sullivan",
+        "Siddhartha Kadia",
+        "Shiraz Ladiwala",
+        "Jennifer Alltoft",
+        "Mark Capone",
+        "Shannon Hall",
+        "R. Tony Tripeny"
+      ],
+      "seats": [
+        {
+          "director": "R. Tony Tripeny",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 1521,
+          "quote": "R. Tony Tripeny, Committee Chairperson"
+        },
+        {
+          "director": "Jennifer Alltoft",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1523,
+          "quote": "Jennifer Alltoft"
+        },
+        {
+          "director": "Mark Capone",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1569,
+          "quote": "Mark Capone"
+        },
+        {
+          "director": "Mark Capone",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 1055,
+          "quote": "The members of the Compensation Committee as of the end of fiscal year 2026 were Mr. Capone (Chairperson), Ms. Hall and Mr. Tripeny."
+        },
+        {
+          "director": "Shannon Hall",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1055,
+          "quote": "The members of the Compensation Committee as of the end of fiscal year 2026 were Mr. Capone (Chairperson), Ms. Hall and Mr. Tripeny."
+        },
+        {
+          "director": "R. Tony Tripeny",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1055,
+          "quote": "The members of the Compensation Committee as of the end of fiscal year 2026 were Mr. Capone (Chairperson), Ms. Hall and Mr. Tripeny."
+        }
+      ],
+      "imageSeats": [
+        {
+          "director": "Shiraz Ladiwala",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "source": "image:directornomineeoverview.jpg"
+        },
+        {
+          "director": "Jennifer Alltoft",
+          "committee": "Nominating and Governance Committee",
+          "role": "chair",
+          "source": "image:directornomineeoverview.jpg"
+        },
+        {
+          "director": "Shannon Hall",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "source": "image:directornomineeoverview.jpg"
+        }
+      ],
+      "notes": "Slate names are taken from the nominee table (lines 487-523); the biography pages are images so no bio prose exists. Audit Committee report (lines 1555-1561) and Compensation Committee report (lines 1603-1609) signature blocks are the only per-committee lists; the interlocks sentence (line 1091) restates the Compensation Committee 'as of the end of fiscal year 2026' (March 31, 2026) and agrees with the signature block (lines 1605-1609: Mark Capone, Committee Chairperson; Shannon Hall; R. Tony Tripeny). Line 1547 says the Audit Committee has three non-employee directors, matching the three signatories. The Nominating and Governance Committee is named (lines 757, 747) but no member or chair is stated anywhere in the text; the director fee table (lines 1315-1370: Alltoft $70,000, Capone $70,000, Tripeny $70,000, Hall $60,000, against a $60,000 retainer and $10,000 committee-chair retainer at lines 1242-1262) is consistent with Jennifer Alltoft chairing it, but that is an inference, not a statement, so no seat is recorded. Alltoft, Capone, Hall and Tripeny may also sit on the Nominating and Governance Committee; the text does not say. John Sullivan (Chairperson of the Board, not independent under the Governance Guidelines, lines 679-685) and Siddhartha Kadia (CEO, not independent, line 681) are placed on no committee because the filing maintains only three standing committees (line 757) and states all members of all three must be independent (line 747), naming the independent dir"
+    },
+    {
+      "key": "nordson",
+      "company": "Nordson Corporation",
+      "cik": "0000072331",
+      "accession": "0001193125-26-014662",
+      "url": "https://www.sec.gov/Archives/edgar/data/72331/000119312526014662/d895414ddef14a.htm",
+      "filed": "2026-01-16",
+      "shape": "mixed — each director's biography card carries a 'Committees:' line (lines 1069-1373; several wrap onto a second line), and the COMMITTEES OF THE BOARD OF DIRECTORS section lists each standing committee's Members with '(Chair)' after the chair (Audit at lines 1743-1751, Compensation at 1791-1797, Governance and Sustainability at 1829-1835); the Executive Committee's membership appears only on the cards, since line 1733 says only the three standing committees are listed in that section. The Audit Committee report (lines 2373-2383) and the Compensation Committee report (lines 5315-5323) repeat their members as signatories.",
+      "truth": "text-cited",
+      "slate": [
+        "John DeFord",
+        "Frank Jaehnert",
+        "Ginger Jones",
+        "Christopher Mapes",
+        "Michael Merriman, Jr.",
+        "Milton Morris",
+        "Sundaram Nagarajan",
+        "Jennifer Parmentier",
+        "Victor Richey, Jr."
+      ],
+      "seats": [
+        {
+          "director": "Ginger Jones",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 1227,
+          "quote": "Committees: Executive, Audit (Chair),"
+        },
+        {
+          "director": "Annette Clayton",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1745,
+          "quote": "Annette Clayton"
+        },
+        {
+          "director": "Frank Jaehnert",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1189,
+          "quote": "Committees: Audit, Governance and"
+        },
+        {
+          "director": "Christopher Mapes",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1069,
+          "quote": "Committees: Audit"
+        },
+        {
+          "director": "Milton Morris",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1263,
+          "quote": "Committees: Audit, Governance and"
+        },
+        {
+          "director": "Michael Merriman, Jr.",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 5317,
+          "quote": "Michael Merriman, Jr., Chair"
+        },
+        {
+          "director": "John DeFord",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1299,
+          "quote": "Committees: Compensation,"
+        },
+        {
+          "director": "Ginger Jones",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1229,
+          "quote": "Compensation"
+        },
+        {
+          "director": "Jennifer Parmentier",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 1341,
+          "quote": "Compensation, Governance and"
+        },
+        {
+          "director": "Jennifer Parmentier",
+          "committee": "Governance and Sustainability Committee",
+          "role": "chair",
+          "line": 1829,
+          "quote": "Jennifer Parmentier (Chair)"
+        },
+        {
+          "director": "John DeFord",
+          "committee": "Governance and Sustainability Committee",
+          "role": "member",
+          "line": 1301,
+          "quote": "Governance and Sustainability"
+        },
+        {
+          "director": "Frank Jaehnert",
+          "committee": "Governance and Sustainability Committee",
+          "role": "member",
+          "line": 1189,
+          "quote": "Committees: Audit, Governance and"
+        },
+        {
+          "director": "Milton Morris",
+          "committee": "Governance and Sustainability Committee",
+          "role": "member",
+          "line": 1263,
+          "quote": "Committees: Audit, Governance and"
+        },
+        {
+          "director": "Victor Richey, Jr.",
+          "committee": "Executive Committee",
+          "role": "chair",
+          "line": 1373,
+          "quote": "Committees: Executive (Chair)"
+        },
+        {
+          "director": "Michael Merriman, Jr.",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 1109,
+          "quote": "Committees: Executive,"
+        },
+        {
+          "director": "Sundaram Nagarajan",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 1151,
+          "quote": "Committees: Executive"
+        },
+        {
+          "director": "Ginger Jones",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 1227,
+          "quote": "Committees: Executive, Audit (Chair),"
+        },
+        {
+          "director": "Jennifer Parmentier",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 1339,
+          "quote": "Committees: Executive,"
+        }
+      ],
+      "notes": "RECONCILIATION: the bio cards and the per-committee Members lists agree for all three standing committees. Audit (Members list 1743-1751): Ginger Jones (Chair), Annette Clayton, Frank Jaehnert, Christopher Mapes, Milton Morris; the same five sign the Audit Committee report at 2375-2383 ('Ginger Jones, Chair'). Compensation (1791-1797): Michael Merriman (Chair), John DeFord, Ginger Jones, Jennifer Parmentier; the same four sign the Compensation Committee report at 5317-5323 ('Michael Merriman, Jr., Chair'). Governance and Sustainability (1829-1835): Jennifer Parmentier (Chair), John DeFord, Frank Jaehnert, Milton Morris. Executive Committee (cards only, no Members list): Victor Richey, Jr. (Chair, 1373), Michael Merriman, Jr. (1109), Sundaram Nagarajan (1151), Ginger Jones (1227), Jennifer Parmentier (1339). SHORT LINES: the card 'Committees:' lines and the Members lists are printed one item per short line, so six seats cite a line shorter than 25 characters with the whole line as the quote: Clayton/Audit (1745 'Annette Clayton'; also 2377), Mapes/Audit (1069 'Committees: Audit'; also 1749, 2381), Jones/Compensation (1229 'Compensation'; also 1795, 5321), Merriman/Executive (1109), Nagarajan/Executive (1151), Parmentier/Executive (1339). WRAPPED COMMITTEE NAMES: on the cards 'Governance and Sustainability' wraps across two lines, so Jaehnert (1189/1191), Morris (1263/1265) and Parmentier (1341/1343 'Sustainability (Chair)') have the committee named across the cited line and th"
+    },
+    {
+      "key": "nssc",
+      "company": "Napco Security Technologies, Inc.",
+      "cik": "0000069633",
+      "accession": "0001140361-25-039260",
+      "url": "https://www.sec.gov/Archives/edgar/data/69633/000114036125039260/ny20055703x1_def14a.htm",
+      "filed": "2025-10-24",
+      "shape": "mixed — each independent director's one-line biography in the nominee table states his committees (lines 173, 183, 189, 209), the 'Board Structure and Committee Composition' section restates each committee's current members with the Chairman (lines 485, 495, 511), and the Audit and Compensation Committee reports are signed by their members (lines 613-617, 857-861).",
+      "truth": "text-cited",
+      "slate": [
+        "Richard L. Soloway",
+        "Kevin S. Buchel",
+        "David Paterson",
+        "Andrew J. Wilder",
+        "Robert A. Ungar",
+        "Rick Lazio",
+        "Donna A. Soloway"
+      ],
+      "seats": [
+        {
+          "director": "Andrew J. Wilder",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 183,
+          "quote": "Mr. Wilder serves as the Audit Committee Chairman, on the Compensation Committee and on the Nominating Committee."
+        },
+        {
+          "director": "Andrew J. Wilder",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 183,
+          "quote": "Mr. Wilder serves as the Audit Committee Chairman, on the Compensation Committee and on the Nominating Committee."
+        },
+        {
+          "director": "Andrew J. Wilder",
+          "committee": "Nominating Committee",
+          "role": "member",
+          "line": 183,
+          "quote": "Mr. Wilder serves as the Audit Committee Chairman, on the Compensation Committee and on the Nominating Committee."
+        },
+        {
+          "director": "Robert A. Ungar",
+          "committee": "Nominating Committee",
+          "role": "chair",
+          "line": 189,
+          "quote": "Mr. Ungar serves as the Nominating Committee Chairman, and on the Audit Committee."
+        },
+        {
+          "director": "Robert A. Ungar",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 189,
+          "quote": "Mr. Ungar serves as the Nominating Committee Chairman, and on the Audit Committee."
+        },
+        {
+          "director": "Rick Lazio",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 209,
+          "quote": "Mr. Lazio serves on both the Compensation Committee (Chairman) and the Audit Committee."
+        },
+        {
+          "director": "Rick Lazio",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 209,
+          "quote": "Mr. Lazio serves on both the Compensation Committee (Chairman) and the Audit Committee."
+        },
+        {
+          "director": "David Paterson",
+          "committee": "Nominating Committee",
+          "role": "member",
+          "line": 173,
+          "quote": "Mr. Paterson serves on the Nominating Committee and Compensating Committee."
+        },
+        {
+          "director": "David Paterson",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 495,
+          "quote": "The current members of the Compensation Committee are Rick Lazio (Chairman), David A. Paterson, and Andrew J. Wilder"
+        }
+      ],
+      "notes": "Bio and per-committee passages agree on every seat. Per-committee restatements: Audit = Andrew J. Wilder (Chairman), Rick Lazio, Robert A. Ungar (line 485; report signatures lines 613-617); Compensation = Rick Lazio (Chairman), David A. Paterson, Andrew J. Wilder (line 495; report signatures lines 857-861; line 839 says Messrs. Paterson, Wilder and Lazio served on the Compensation Committee during fiscal 2025); Nominating = Robert Ungar (Chairman), David Paterson, Andrew J. Wilder (line 511). Paterson's bio (line 173) misspells the Compensation Committee as 'Compensating Committee'; the Compensation seat is therefore cited to the per-committee paragraph at line 495 instead. The bio heading prints 'David Paterson' (line 171) while lines 495 and 861 print 'David A. Paterson' and line 511 prints 'David Paterson'; the slate uses the heading form. Richard L. Soloway (Chairman of the Board, CEO) and Kevin S. Buchel (President, COO) are employees; the filing never states their committee membership directly, but line 473 says each committee is composed entirely of independent directors and line 713 ties committee fees to non-employee directors, so they sit on no committee by implication (recorded as stated: false). Richard L. Soloway's Chairman of the Board title is a board role, not a committee seat, and is excluded. Paul Stephen Beeber retired as a director on September 17, 2024 (line 713) and appears only in the director compensation table (line 701); he is not on the slate. The A"
+    },
+    {
+      "key": "utmd",
+      "company": "Utah Medical Products, Inc.",
+      "cik": "0000706698",
+      "accession": "0001096906-26-000477",
+      "url": "https://www.sec.gov/Archives/edgar/data/706698/000109690626000477/utmd_def14a.htm",
+      "filed": "2026-04-02",
+      "shape": "mixed — current committee members are identified by footnote markers (1)-(4) on each director's row of the Security Ownership table (rows at lines 818, 826, 834, 842, 850, 868; marker key at lines 918-924; line 1720 states that table is where the current committee members are identified), with the Audit Committee chair stated in Hoyer's biography (line 330), the Board Leadership paragraph (line 1710) and the Audit Committee report (line 1812), and the Compensation and Benefits Committee and Audit Committee reports listing their signatories (lines 1804-1808 and 1824-1832).",
+      "truth": "text-cited",
+      "slate": [
+        "Kevin L. Cornwell",
+        "Ernst G. Hoyer",
+        "James H. Beeson",
+        "Paul O. Richins",
+        "Carrie Leigh",
+        "Kevin Timken"
+      ],
+      "seats": [
+        {
+          "director": "Kevin L. Cornwell",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 918,
+          "quote": "(1) Executive Committee member"
+        },
+        {
+          "director": "Ernst G. Hoyer",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 1710,
+          "quote": "his roles as Chairman of the Audit Committee and outside director representative on the Executive Committee"
+        },
+        {
+          "director": "Ernst G. Hoyer",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 1812,
+          "quote": "Ernst G. Hoyer is the Board of Directors’ designated Audit Committee Chairman"
+        },
+        {
+          "director": "Ernst G. Hoyer",
+          "committee": "Governance and Nominating Committee",
+          "role": "member",
+          "line": 922,
+          "quote": "(3) Governance and Nominating Committee member"
+        },
+        {
+          "director": "Ernst G. Hoyer",
+          "committee": "Compensation and Benefits Committee",
+          "role": "member",
+          "line": 924,
+          "quote": "(4) Compensation and Benefits Committee member"
+        },
+        {
+          "director": "Paul O. Richins",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 1718,
+          "quote": "Mr. Richins was traveling during the Audit Committee meeting in January 2026"
+        },
+        {
+          "director": "Paul O. Richins",
+          "committee": "Governance and Nominating Committee",
+          "role": "member",
+          "line": 922,
+          "quote": "(3) Governance and Nominating Committee member"
+        },
+        {
+          "director": "James H. Beeson",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 920,
+          "quote": "(2) Audit Committee member"
+        },
+        {
+          "director": "James H. Beeson",
+          "committee": "Governance and Nominating Committee",
+          "role": "member",
+          "line": 922,
+          "quote": "(3) Governance and Nominating Committee member"
+        },
+        {
+          "director": "Kevin Timken",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 920,
+          "quote": "(2) Audit Committee member"
+        },
+        {
+          "director": "Kevin Timken",
+          "committee": "Compensation and Benefits Committee",
+          "role": "member",
+          "line": 924,
+          "quote": "(4) Compensation and Benefits Committee member"
+        }
+      ],
+      "notes": "TABLE-DERIVED SEATS: the filing's only complete membership statement is the marker set on each director's Security Ownership row: line 818 'Kevin L. Cornwell (1)', line 826 'Ernst G. Hoyer (1)(2)(3)(4)', line 834 'Paul O. Richins (2)(3)', line 842 'James H. Beeson (2)(3)', line 850 'Carrie Leigh' (no marker), line 868 'Kevin Timken(2)(4)'; the key is lines 918-924 ((1) Executive, (2) Audit, (3) Governance and Nominating, (4) Compensation and Benefits). Because a seat there is stated across the row line and the key line, and most row lines are under 25 characters, the seats with no prose statement cite the key line that names the committee; the row line is the director half of the statement. Membership by committee from the table: Executive = Cornwell, Hoyer; Audit = Hoyer, Richins, Beeson, Timken; Governance and Nominating = Hoyer, Richins, Beeson; Compensation and Benefits = Hoyer, Timken. CROSS-CHECKS (all agree with the table): Audit Committee report signatories at lines 1826-1832 are Ernst G. Hoyer, Kevin C. Timken, Paul O. Richins, James H. Beeson; line 1812 says the Audit Committee is composed of four independent outside directors and line 1706 names the four independents as Timken, Hoyer, Beeson and Richins; Compensation and Benefits Committee report signatories at lines 1806-1808 are Ernst G. Hoyer and Kevin C. Timken; line 1314 says one outside director serves on the Executive Committee and line 1316 names Hoyer as that member for 2025 and 2026. CHAIRS: the only comm"
+    },
+    {
+      "key": "verizon",
+      "company": "Verizon Communications Inc.",
+      "cik": "0000732712",
+      "accession": "0001308179-26-000210",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000130817926000210/vz014688_def14a.htm",
+      "filed": "2026-04-06",
+      "shape": "mixed — a proxy-summary 'Committee membership' grid rendered as image marks (lines 662-844, memberships as of April 6, 2026), a 'Committees:' block on each nominee's bio card with '(Chair)' appended to the chaired committee (1621-2361), and a 'Members' list with '(Chair)' on its own line under each committee's description in the Board committees section (2655-2853); the Audit and Human Resources committee reports are signed by members with the chair marked (5843-5849, 11768-11774).",
+      "truth": "text-cited",
+      "slate": [
+        "Shellye Archambeau",
+        "Roxanne Austin",
+        "Mark Bertolini",
+        "Vittorio Colao",
+        "Caroline Litchfield",
+        "Jennifer Mann",
+        "Laxman Narasimhan",
+        "Daniel Schulman",
+        "Carol Tomé"
+      ],
+      "seats": [
+        {
+          "director": "Shellye Archambeau",
+          "committee": "Corporate Governance and Policy Committee",
+          "role": "chair",
+          "line": 692,
+          "quote": "row Shellye Archambeau Former Chief Executive Officer, MetricStream, Inc. | column Corporate Governance and Policy"
+        },
+        {
+          "director": "Shellye Archambeau",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 690,
+          "quote": "row Shellye Archambeau Former Chief Executive Officer, MetricStream, Inc. | column Audit"
+        },
+        {
+          "director": "Roxanne Austin",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 706,
+          "quote": "row Roxanne Austin President and CEO, Austin Investment Advisors | column Audit"
+        },
+        {
+          "director": "Roxanne Austin",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 708,
+          "quote": "row Roxanne Austin President and CEO, Austin Investment Advisors | column Finance"
+        },
+        {
+          "director": "Mark Bertolini",
+          "committee": "Corporate Governance and Policy Committee",
+          "role": "member",
+          "line": 724,
+          "quote": "row Mark Bertolini Chief Executive Officer, Oscar Health, Inc. Independent Chair | column Corporate Governance and Policy"
+        },
+        {
+          "director": "Mark Bertolini",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 726,
+          "quote": "row Mark Bertolini Chief Executive Officer, Oscar Health, Inc. Independent Chair | column Finance"
+        },
+        {
+          "director": "Mark Bertolini",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 728,
+          "quote": "row Mark Bertolini Chief Executive Officer, Oscar Health, Inc. Independent Chair | column Human Resources"
+        },
+        {
+          "director": "Vittorio Colao",
+          "committee": "Finance Committee",
+          "role": "chair",
+          "line": 744,
+          "quote": "row Vittorio Colao Former Chief Executive, Vodafone Group Plc | column Finance"
+        },
+        {
+          "director": "Vittorio Colao",
+          "committee": "Corporate Governance and Policy Committee",
+          "role": "member",
+          "line": 742,
+          "quote": "row Vittorio Colao Former Chief Executive, Vodafone Group Plc | column Corporate Governance and Policy"
+        },
+        {
+          "director": "Caroline Litchfield",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 758,
+          "quote": "row Caroline Litchfield Executive Vice President and CFO, Merck & Co., Inc. | column Audit"
+        },
+        {
+          "director": "Caroline Litchfield",
+          "committee": "Corporate Governance and Policy Committee",
+          "role": "member",
+          "line": 760,
+          "quote": "row Caroline Litchfield Executive Vice President and CFO, Merck & Co., Inc. | column Corporate Governance and Policy"
+        },
+        {
+          "director": "Jennifer Mann",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 776,
+          "quote": "row Jennifer Mann Executive Vice President and President, North America Operating Un | column Human Resources"
+        },
+        {
+          "director": "Laxman Narasimhan",
+          "committee": "Human Resources Committee",
+          "role": "chair",
+          "line": 792,
+          "quote": "row Laxman Narasimhan Former Chief Executive Officer, Starbucks Corporation | column Human Resources"
+        },
+        {
+          "director": "Laxman Narasimhan",
+          "committee": "Corporate Governance and Policy Committee",
+          "role": "member",
+          "line": 790,
+          "quote": "row Laxman Narasimhan Former Chief Executive Officer, Starbucks Corporation | column Corporate Governance and Policy"
+        },
+        {
+          "director": "Carol Tomé",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 818,
+          "quote": "row Carol Tomé Chief Executive Officer, United Parcel Service, Inc. | column Finance"
+        },
+        {
+          "director": "Clarence Otis, Jr.",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 2637,
+          "quote": "Ms. Litchfield and Mr. Otis is an audit committee financial expert."
+        },
+        {
+          "director": "Clarence Otis, Jr.",
+          "committee": "Finance Committee",
+          "role": "member",
+          "line": 2782,
+          "quote": "Otis, Jr."
+        },
+        {
+          "director": "Clarence Otis, Jr.",
+          "committee": "Human Resources Committee",
+          "role": "member",
+          "line": 5825,
+          "quote": "Clarence Otis, Jr."
+        }
+      ],
+      "notes": "SOURCES AGREE: the grid (662-844), the bio cards and the per-committee Members lists state the same 15 nominee seats and the same 4 chairs. CITATION CHOICE: the only lines that carry a director's name and a committee name together and are 25+ characters long are the grid's image-mark lines, so every nominee seat cites one; the glyph id in each mark line is the legend at 846-850 (x10 row-level = Independent; x14 = member; x12 = Committee Chair; x11 = member who is an Audit Committee Financial Expert; x13 = Chair who is an Audit Committee Financial Expert, Austin only) — the mapping is consistent across all 15 seats. The chair role is stated in text only on lines shorter than 25 characters, each on the same line as (or the line after) the committee name: Archambeau 1623 'Corporate Governance and' + 1625 'Policy (Chair)', table 2706 'Shellye Archambeau' + 2708 '(Chair)'; Austin 1690 'Audit (Chair)', table 2657 + 2659 '(Chair)', Audit report 11768 'Roxanne Austin, Chair'; Colao 1886 'Finance (Chair)', table 2789 + 2791 '(Chair)'; Narasimhan 2158 'Human Resources (Chair)', table 2844 + 2846 '(Chair)', HR report 5843 'Laxman Narasimhan, Chair'. Member seats in the bios: Archambeau 1627 'Audit'; Austin 1692 'Finance'; Bertolini 1802/1804/1806; Colao 1888; Litchfield 1996/1998; Mann 2059; Narasimhan 2160; Tomé 2361. Committee full names are at 2571-2572. Memberships are stated as of April 6, 2026 (844). NON-NOMINEE DIRECTOR WITH SEATS: Clarence Otis, Jr. is a current director not sta"
+    },
+    {
+      "key": "walmart",
+      "company": "Walmart Inc.",
+      "cik": "0000104169",
+      "accession": "0001193125-26-173673",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm",
+      "filed": "2026-04-23",
+      "shape": "mixed — each nominee card lists 'Board Committees:' with abbreviations and '(Chair)' (lines 1343-2119), and the Board Committees section lists each committee's chair and members by name under the committee heading (lines 2458-2830), restated for the Audit Committee in prose (line 4100), for the NGC chair in prose (line 2398), and in the Audit Committee and CMDC report signature blocks (lines 4169-4177, 5737-5747).",
+      "truth": "text-cited",
+      "slate": [
+        "Cesar Conde",
+        "Sarah J. Friar",
+        "John R. Furner",
+        "Carla A. Harris",
+        "Thomas W. Horton",
+        "Marissa A. Mayer",
+        "Shishir Mehrotra",
+        "Robert E. Moritz, Jr.",
+        "Gregory B. Penner",
+        "Randall L. Stephenson",
+        "Steuart L. Walton"
+      ],
+      "seats": [
+        {
+          "director": "Tim Flynn",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 4103,
+          "quote": "The current members of the Audit Committee are Tim Flynn, the Chair of the Audit Committee; Cesar Conde; Tom Horton; and Bob Moritz."
+        },
+        {
+          "director": "Cesar Conde",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4103,
+          "quote": "The current members of the Audit Committee are Tim Flynn, the Chair of the Audit Committee; Cesar Conde; Tom Horton; and Bob Moritz."
+        },
+        {
+          "director": "Thomas W. Horton",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4103,
+          "quote": "The current members of the Audit Committee are Tim Flynn, the Chair of the Audit Committee; Cesar Conde; Tom Horton; and Bob Moritz."
+        },
+        {
+          "director": "Robert E. Moritz, Jr.",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 4103,
+          "quote": "The current members of the Audit Committee are Tim Flynn, the Chair of the Audit Committee; Cesar Conde; Tom Horton; and Bob Moritz."
+        },
+        {
+          "director": "Carla A. Harris",
+          "committee": "Compensation and Management Development Committee",
+          "role": "chair",
+          "line": 2703,
+          "quote": "Carla Harris, Chair"
+        },
+        {
+          "director": "Marissa A. Mayer",
+          "committee": "Compensation and Management Development Committee",
+          "role": "member",
+          "line": 2705,
+          "quote": "Marissa Mayer"
+        },
+        {
+          "director": "Shishir Mehrotra",
+          "committee": "Compensation and Management Development Committee",
+          "role": "member",
+          "line": 2707,
+          "quote": "Shishir Mehrotra"
+        },
+        {
+          "director": "Brian Niccol",
+          "committee": "Compensation and Management Development Committee",
+          "role": "member",
+          "line": 2709,
+          "quote": "Brian Niccol"
+        },
+        {
+          "director": "Randall L. Stephenson",
+          "committee": "Compensation and Management Development Committee",
+          "role": "member",
+          "line": 2711,
+          "quote": "Randall Stephenson"
+        },
+        {
+          "director": "Randall L. Stephenson",
+          "committee": "Nominating and Governance Committee",
+          "role": "chair",
+          "line": 2400,
+          "quote": "Mr. Stephenson also serves as the Chair of the NGC"
+        },
+        {
+          "director": "Carla A. Harris",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 2777,
+          "quote": "Carla Harris"
+        },
+        {
+          "director": "Thomas W. Horton",
+          "committee": "Nominating and Governance Committee",
+          "role": "member",
+          "line": 2779,
+          "quote": "Tom Horton"
+        },
+        {
+          "director": "Steuart L. Walton",
+          "committee": "Strategic Planning and Finance Committee",
+          "role": "chair",
+          "line": 2477,
+          "quote": "Steuart Walton, Chair"
+        },
+        {
+          "director": "Cesar Conde",
+          "committee": "Strategic Planning and Finance Committee",
+          "role": "member",
+          "line": 2479,
+          "quote": "Cesar Conde"
+        },
+        {
+          "director": "Carla A. Harris",
+          "committee": "Strategic Planning and Finance Committee",
+          "role": "member",
+          "line": 2481,
+          "quote": "Carla Harris"
+        },
+        {
+          "director": "Thomas W. Horton",
+          "committee": "Strategic Planning and Finance Committee",
+          "role": "member",
+          "line": 2483,
+          "quote": "Tom Horton"
+        },
+        {
+          "director": "Randall L. Stephenson",
+          "committee": "Strategic Planning and Finance Committee",
+          "role": "member",
+          "line": 2485,
+          "quote": "Randall Stephenson"
+        },
+        {
+          "director": "Sarah J. Friar",
+          "committee": "Technology and eCommerce Committee",
+          "role": "chair",
+          "line": 2537,
+          "quote": "Sarah Friar, Chair"
+        },
+        {
+          "director": "Tim Flynn",
+          "committee": "Technology and eCommerce Committee",
+          "role": "member",
+          "line": 2539,
+          "quote": "Tim Flynn"
+        },
+        {
+          "director": "Marissa A. Mayer",
+          "committee": "Technology and eCommerce Committee",
+          "role": "member",
+          "line": 2541,
+          "quote": "Marissa Mayer"
+        },
+        {
+          "director": "Shishir Mehrotra",
+          "committee": "Technology and eCommerce Committee",
+          "role": "member",
+          "line": 2543,
+          "quote": "Shishir Mehrotra"
+        },
+        {
+          "director": "Robert E. Moritz, Jr.",
+          "committee": "Technology and eCommerce Committee",
+          "role": "member",
+          "line": 2545,
+          "quote": "Bob Moritz"
+        },
+        {
+          "director": "Brian Niccol",
+          "committee": "Technology and eCommerce Committee",
+          "role": "member",
+          "line": 2547,
+          "quote": "Brian Niccol"
+        },
+        {
+          "director": "Doug McMillon",
+          "committee": "Executive Committee",
+          "role": "chair",
+          "line": 2829,
+          "quote": "Doug McMillon, Chair"
+        },
+        {
+          "director": "John R. Furner",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 2831,
+          "quote": "John Furner"
+        },
+        {
+          "director": "Gregory B. Penner",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 2833,
+          "quote": "Greg Penner"
+        },
+        {
+          "director": "Randall L. Stephenson",
+          "committee": "Executive Committee",
+          "role": "member",
+          "line": 2031,
+          "quote": "Executive Committee"
+        }
+      ],
+      "futureRoles": [
+        {
+          "director": "Robert E. Moritz, Jr.",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "stated": "will replace Mr. Flynn as Chair of the Audit Committee effective as of the 2026 Annual Shareholders' Meeting"
+        }
+      ],
+      "notes": "Three current directors who hold committee seats are NOT on the slate of 11 nominees and are recorded in seats anyway because the filing states their seats as the current composition: Tim Flynn (Audit Committee Chair and TeCC member) retires from the Board following the 2026 Annual Shareholders' Meeting (line 157); Brian Niccol (CMDC and TeCC member) will not stand for re-election (line 161); Doug McMillon (Executive Committee Chair) retired as CEO effective January 31, 2026 (line 4243) and is described as a director (line 3519) but has no nominee card. Robert E. Moritz, Jr. is recorded as an Audit Committee MEMBER only: the filing states he 'will replace Mr. Flynn as Chair of the Audit Committee effective as of the 2026 Annual Shareholders' Meeting, subject to Mr. Moritz's re-election' (lines 980, 2446, 2665; also line 157), a future role, not the current composition. Abbreviations are resolved by the glossary: CMDC = Compensation and Management Development Committee (lines 9377-9379), NGC = Nominating and Governance Committee (9439-9441), SPFC = Strategic Planning and Finance Committee (9479-9481), TeCC = Technology and eCommerce Committee (9483-9485). The per-committee lists (lines 2474-2830) and every nominee card agree exactly: Conde card lines 1346 (Audit), 1349 (SPFC); Friar 1428 'TeCC (Chair)'; Furner 1488 'Executive Committee'; Harris 1568 'CMDC (Chair)', 1571 (NGC), 1574 (SPFC); Horton 1639 (Audit), 1642 (NGC), 1645 (SPFC); Mayer 1730 (CMDC), 1733 (TeCC); Mehrotra 1"
+    },
+    {
+      "key": "weys",
+      "company": "Weyco Group, Inc.",
+      "cik": "0000106532",
+      "accession": "0001104659-26-039031",
+      "url": "https://www.sec.gov/Archives/edgar/data/106532/000110465926039031/weys-20260505xdef14a.htm",
+      "filed": "2026-04-02",
+      "shape": "mixed — each nominee's bio heading is followed by role lines ('Chairman of X Committee' / 'Member of X Committee and Y Committee', lines 797-861), and the Committees section restates each committee's full membership in a parenthetical inside its independence sentence (lines 1627, 1641, 1647) without naming chairs; the Audit Committee report is signed by its members with the chair marked (1691-1701).",
+      "truth": "text-cited",
+      "slate": [
+        "Tina Chang",
+        "John W. Florsheim",
+        "Thomas W. Florsheim",
+        "Thomas W. Florsheim, Jr.",
+        "Becky Kryger",
+        "Cory L. Nettles",
+        "Frederick P. Stratton, Jr."
+      ],
+      "seats": [
+        {
+          "director": "Tina Chang",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "chair",
+          "line": 797,
+          "quote": "Chairman of Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Tina Chang",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 799,
+          "quote": "Member of Audit Committee and Compensation Committee"
+        },
+        {
+          "director": "Tina Chang",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 799,
+          "quote": "Member of Audit Committee and Compensation Committee"
+        },
+        {
+          "director": "Becky Kryger",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 833,
+          "quote": "Member of Audit Committee, Compensation Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Becky Kryger",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 833,
+          "quote": "Member of Audit Committee, Compensation Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Becky Kryger",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 833,
+          "quote": "Member of Audit Committee, Compensation Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Cory L. Nettles",
+          "committee": "Compensation Committee",
+          "role": "chair",
+          "line": 847,
+          "quote": "Chairman of Compensation Committee"
+        },
+        {
+          "director": "Cory L. Nettles",
+          "committee": "Audit Committee",
+          "role": "member",
+          "line": 849,
+          "quote": "Member of Audit Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Cory L. Nettles",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 849,
+          "quote": "Member of Audit Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Frederick P. Stratton, Jr.",
+          "committee": "Audit Committee",
+          "role": "chair",
+          "line": 859,
+          "quote": "Chairman of Audit Committee"
+        },
+        {
+          "director": "Frederick P. Stratton, Jr.",
+          "committee": "Compensation Committee",
+          "role": "member",
+          "line": 861,
+          "quote": "Member of Compensation Committee and Nominating and Corporate Governance Committee"
+        },
+        {
+          "director": "Frederick P. Stratton, Jr.",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member",
+          "line": 861,
+          "quote": "Member of Compensation Committee and Nominating and Corporate Governance Committee"
+        }
+      ],
+      "notes": "Bio role lines (797-861) and the per-committee member parentheticals (1627 Nominating and Corporate Governance: Chang, Kryger, Nettles, Stratton; 1641 Compensation: Chang, Kryger, Nettles, Stratton; 1647 Audit: Stratton, Chang, Kryger, Nettles) agree on all 12 seats; chairs are stated only in the bios, using the word 'Chairman' for a committee chair. The Audit Committee report is signed at 1691 'Frederick P. Stratton, Jr., Chairman', 1695 Tina Chang, 1697 Becky Kryger, 1701 Cory L. Nettles — consistent. The three Florsheims are placed on no committee by any passage naming them individually; the filing states at 1559 that only Chang, Kryger, Nettles and Stratton are independent, at 1565 and 1569 that every standing committee is comprised solely of independent directors, and the three per-committee lists are exhaustive, so their absence is implied, not stated per person (hence stated: false). Thomas W. Florsheim, Jr. is 'Chairman of the Board since 2002' (line 823) and Thomas W. Florsheim is Chairman Emeritus (827) — board roles, not committee seats, excluded. Becky Kryger joined the Board July 31, 2025 (1553); her seats are stated as current. No vice chairs, no special or ad hoc committees, no seats stated as effective after the meeting. The 48 '[mark X ...]' lines (1062-1433) are a skills/diversity matrix, not committee membership."
+    },
+    {
+      "key": "3m",
+      "company": "3M Company",
+      "cik": "0000066740",
+      "accession": "0000066740-26-000151",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000151/mmm-20260324.htm",
+      "filed": "2026-03-25",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Anne H. Chow",
+        "Audrey Choi",
+        "David P. Bozeman",
+        "James R. Fitterling",
+        "Neil G. Mitchill, Jr.",
+        "Pedro J. Pizarro",
+        "Suzan Kereere",
+        "Thomas W. Sweet",
+        "Thomas “Tony” K. Brown"
+      ],
+      "seats": [
+        {
+          "director": "David P. Bozeman",
+          "committee": "Compensation and Talent",
+          "role": "member"
+        },
+        {
+          "director": "David P. Bozeman",
+          "committee": "Science, Technology & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Thomas “Tony” K. Brown",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Thomas “Tony” K. Brown",
+          "committee": "Nominating and Governance",
+          "role": "chair"
+        },
+        {
+          "director": "Audrey Choi",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "Audrey Choi",
+          "committee": "Science, Technology & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Anne H. Chow",
+          "committee": "Compensation and Talent",
+          "role": "chair"
+        },
+        {
+          "director": "Anne H. Chow",
+          "committee": "Science, Technology & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "David B. Dillon",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "David B. Dillon",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "James R. Fitterling",
+          "committee": "Compensation and Talent",
+          "role": "member"
+        },
+        {
+          "director": "Suzan Kereere",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Suzan Kereere",
+          "committee": "Compensation and Talent",
+          "role": "member"
+        },
+        {
+          "director": "Neil G. Mitchill, Jr.",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Neil G. Mitchill, Jr.",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "Pedro J. Pizarro",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "Pedro J. Pizarro",
+          "committee": "Science, Technology & Sustainability",
+          "role": "chair"
+        },
+        {
+          "director": "Thomas W. Sweet",
+          "committee": "Audit",
+          "role": "chair"
+        },
+        {
+          "director": "Thomas W. Sweet",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: David B. Dillon"
+    },
+    {
+      "key": "amazon",
+      "company": "Amazon.com, Inc.",
+      "cik": "0001018724",
+      "accession": "0001104659-26-041026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm",
+      "filed": "2026-04-09",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Andrew Y. Ng",
+        "Brad D. Smith",
+        "Daniel P. Huttenlocher",
+        "Edith W. Cooper",
+        "Indra K. Nooyi",
+        "Jamie S. Gorelick",
+        "Jonathan J. Rubinstein",
+        "Patricia Q. Stonesifer",
+        "Wendell P. Weeks"
+      ],
+      "seats": [
+        {
+          "director": "Keith B. Alexander",
+          "committee": "Security Committee",
+          "role": "member"
+        },
+        {
+          "director": "Edith W. Cooper",
+          "committee": "Leadership Development and Compensation Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Jamie S. Gorelick",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Daniel P. Huttenlocher",
+          "committee": "Leadership Development and Compensation Committee",
+          "role": "member"
+        },
+        {
+          "director": "Daniel P. Huttenlocher",
+          "committee": "Security Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Andrew Y. Ng",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Indra K. Nooyi",
+          "committee": "Audit Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Jonathan J. Rubinstein",
+          "committee": "Nominating and Corporate Governance Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Jonathan J. Rubinstein",
+          "committee": "Security Committee",
+          "role": "member"
+        },
+        {
+          "director": "Brad D. Smith",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Patricia Q. Stonesifer",
+          "committee": "Leadership Development and Compensation Committee",
+          "role": "member"
+        },
+        {
+          "director": "Wendell P. Weeks",
+          "committee": "Audit Committee",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: Keith B. Alexander"
+    },
+    {
+      "key": "caterpillar",
+      "company": "Caterpillar Inc.",
+      "cik": "0000018230",
+      "accession": "0001308179-26-000358",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000130817926000358/cat014496-def14a.htm",
+      "filed": "2026-04-30",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "David W. MacLennan",
+        "Debra L. Reed-Klages",
+        "Gerald Johnson",
+        "James C. Fish, Jr.",
+        "Judith F. Marks",
+        "Lynn J. Good",
+        "Nazzic S. Keene",
+        "Rayford Wilkins, Jr.",
+        "Susan C. Schwab"
+      ],
+      "seats": [
+        {
+          "director": "James C. Fish, Jr.",
+          "committee": "AC",
+          "role": "member"
+        },
+        {
+          "director": "James C. Fish, Jr.",
+          "committee": "SPPC",
+          "role": "chair"
+        },
+        {
+          "director": "James C. Fish, Jr.",
+          "committee": "EC",
+          "role": "member"
+        },
+        {
+          "director": "Lynn J. Good",
+          "committee": "AC",
+          "role": "member"
+        },
+        {
+          "director": "Lynn J. Good",
+          "committee": "CHRC",
+          "role": "member"
+        },
+        {
+          "director": "Gerald Johnson",
+          "committee": "CHRC",
+          "role": "member"
+        },
+        {
+          "director": "Gerald Johnson",
+          "committee": "SPPC",
+          "role": "member"
+        },
+        {
+          "director": "Nazzic S. Keene",
+          "committee": "CHRC",
+          "role": "member"
+        },
+        {
+          "director": "Nazzic S. Keene",
+          "committee": "NGC",
+          "role": "member"
+        },
+        {
+          "director": "David W. MacLennan",
+          "committee": "AC",
+          "role": "chair"
+        },
+        {
+          "director": "David W. MacLennan",
+          "committee": "SPPC",
+          "role": "member"
+        },
+        {
+          "director": "David W. MacLennan",
+          "committee": "EC",
+          "role": "member"
+        },
+        {
+          "director": "Judith F. Marks",
+          "committee": "AC",
+          "role": "member"
+        },
+        {
+          "director": "Judith F. Marks",
+          "committee": "CHRC",
+          "role": "member"
+        },
+        {
+          "director": "Debra L. Reed-Klages",
+          "committee": "NGC",
+          "role": "chair"
+        },
+        {
+          "director": "Debra L. Reed-Klages",
+          "committee": "EC",
+          "role": "chair"
+        },
+        {
+          "director": "Susan C. Schwab",
+          "committee": "SPPC",
+          "role": "member"
+        },
+        {
+          "director": "Susan C. Schwab",
+          "committee": "NGC",
+          "role": "member"
+        },
+        {
+          "director": "Rayford Wilkins, Jr.",
+          "committee": "CHRC",
+          "role": "chair"
+        },
+        {
+          "director": "Rayford Wilkins, Jr.",
+          "committee": "NGC",
+          "role": "member"
+        },
+        {
+          "director": "Rayford Wilkins, Jr.",
+          "committee": "EC",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "exxon",
+      "company": "Exxon Mobil Corporation",
+      "cik": "0000034088",
+      "accession": "0001193125-26-147614",
+      "url": "https://www.sec.gov/Archives/edgar/data/34088/000119312526147614/d16317ddef14a.htm",
+      "filed": "2026-04-08",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "A.A. Karsner",
+        "A.F. Braly",
+        "D. Powell McCormick",
+        "D.W. Woods",
+        "G.C. Garland",
+        "J.D. Harris II",
+        "J.L. Hooley",
+        "K.H. Hietala",
+        "L.W. Kellner",
+        "M.J. Angelakis",
+        "M.S. Dreyfus",
+        "S.A. Kandarian"
+      ],
+      "seats": [
+        {
+          "director": "M.J. Angelakis",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "M.J. Angelakis",
+          "committee": "Finance",
+          "role": "chair"
+        },
+        {
+          "director": "M.J. Angelakis",
+          "committee": "Executive Committee",
+          "role": "member"
+        },
+        {
+          "director": "A.F. Braly",
+          "committee": "Compensation",
+          "role": "chair"
+        },
+        {
+          "director": "A.F. Braly",
+          "committee": "Environment, Safety and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "M.S. Dreyfus",
+          "committee": "Audit",
+          "role": "chair"
+        },
+        {
+          "director": "M.S. Dreyfus",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "G.C. Garland",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "G.C. Garland",
+          "committee": "Finance",
+          "role": "member"
+        },
+        {
+          "director": "J.D. Harris II",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "J.D. Harris II",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "K.H. Hietala",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "K.H. Hietala",
+          "committee": "Finance",
+          "role": "member"
+        },
+        {
+          "director": "J.L. Hooley",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "J.L. Hooley",
+          "committee": "Nominating and Governance",
+          "role": "chair"
+        },
+        {
+          "director": "J.L. Hooley",
+          "committee": "Executive Committee",
+          "role": "member"
+        },
+        {
+          "director": "S.A. Kandarian",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "S.A. Kandarian",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "S.A. Kandarian",
+          "committee": "Executive Committee",
+          "role": "member"
+        },
+        {
+          "director": "A.A. Karsner",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "A.A. Karsner",
+          "committee": "Environment, Safety and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "L.W. Kellner",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "L.W. Kellner",
+          "committee": "Environment, Safety and Public Policy",
+          "role": "chair"
+        },
+        {
+          "director": "L.W. Kellner",
+          "committee": "Executive Committee",
+          "role": "member"
+        },
+        {
+          "director": "D. Powell McCormick",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "D. Powell McCormick",
+          "committee": "Environment, Safety and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "J.W. Ubben",
+          "committee": "Finance",
+          "role": "member"
+        },
+        {
+          "director": "J.W. Ubben",
+          "committee": "Environment, Safety and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "D.W. Woods",
+          "committee": "Finance",
+          "role": "member"
+        },
+        {
+          "director": "D.W. Woods",
+          "committee": "Executive Committee",
+          "role": "chair"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: J.W. Ubben"
+    },
+    {
+      "key": "hurc",
+      "company": "Hurco Companies, Inc.",
+      "cik": "0000315374",
+      "accession": "0001104659-26-007238",
+      "url": "https://www.sec.gov/Archives/edgar/data/315374/000110465926007238/tm261584-1_def14a.htm",
+      "filed": "2026-01-28",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Benjamin Rashleger",
+        "Cynthia Dubin",
+        "Janaki Sivanesan",
+        "Richard Porter",
+        "Timothy J. Gardner"
+      ],
+      "seats": [
+        {
+          "director": "Cynthia Dubin",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Timothy J. Gardner",
+          "committee": "Compensation",
+          "role": "chair"
+        },
+        {
+          "director": "Timothy J. Gardner",
+          "committee": "Nominating and Governance",
+          "role": "member"
+        },
+        {
+          "director": "Richard Porter",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "Richard Porter",
+          "committee": "Nominating and Governance",
+          "role": "chair"
+        },
+        {
+          "director": "Benjamin Rashleger",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Janaki Sivanesan",
+          "committee": "Audit",
+          "role": "chair"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "johnson_johnson",
+      "company": "Johnson & Johnson",
+      "cik": "0000200406",
+      "accession": "0000200406-26-000063",
+      "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000063/jnj-20260309.htm",
+      "filed": "2026-03-11",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "D. E. Pinto",
+        "E. A. Woods",
+        "H. Joly",
+        "J. A. Doudna",
+        "J. Duato",
+        "J. G. Morikis",
+        "M. A. Hewson",
+        "M. A. Weinberger",
+        "M. B. McClellan",
+        "M. C. Beckerle",
+        "N. Y. West",
+        "P. A. Johnson"
+      ],
+      "seats": [
+        {
+          "director": "M. C. Beckerle",
+          "committee": "RCS",
+          "role": "member"
+        },
+        {
+          "director": "M. C. Beckerle",
+          "committee": "ST",
+          "role": "chair"
+        },
+        {
+          "director": "J. A. Doudna",
+          "committee": "NCG",
+          "role": "member"
+        },
+        {
+          "director": "J. A. Doudna",
+          "committee": "ST",
+          "role": "member"
+        },
+        {
+          "director": "J. Duato",
+          "committee": "FIN",
+          "role": "chair"
+        },
+        {
+          "director": "M. A. Hewson",
+          "committee": "CB",
+          "role": "member"
+        },
+        {
+          "director": "M. A. Hewson",
+          "committee": "NCG",
+          "role": "chair"
+        },
+        {
+          "director": "M. A. Hewson",
+          "committee": "FIN",
+          "role": "member"
+        },
+        {
+          "director": "M. A. Hewson",
+          "committee": "SC",
+          "role": "chair"
+        },
+        {
+          "director": "P. A. Johnson",
+          "committee": "NCG",
+          "role": "member"
+        },
+        {
+          "director": "P. A. Johnson",
+          "committee": "ST",
+          "role": "member"
+        },
+        {
+          "director": "H. Joly",
+          "committee": "AUD",
+          "role": "chair"
+        },
+        {
+          "director": "H. Joly",
+          "committee": "NCG",
+          "role": "member"
+        },
+        {
+          "director": "H. Joly",
+          "committee": "SC",
+          "role": "member"
+        },
+        {
+          "director": "M. B. McClellan",
+          "committee": "RCS",
+          "role": "member"
+        },
+        {
+          "director": "M. B. McClellan",
+          "committee": "ST",
+          "role": "member"
+        },
+        {
+          "director": "J. G. Morikis",
+          "committee": "AUD",
+          "role": "member"
+        },
+        {
+          "director": "J. G. Morikis",
+          "committee": "CB",
+          "role": "member"
+        },
+        {
+          "director": "D. E. Pinto",
+          "committee": "AUD",
+          "role": "member"
+        },
+        {
+          "director": "D. E. Pinto",
+          "committee": "CB",
+          "role": "member"
+        },
+        {
+          "director": "D. E. Pinto",
+          "committee": "SC",
+          "role": "member"
+        },
+        {
+          "director": "M. A. Weinberger",
+          "committee": "AUD",
+          "role": "member"
+        },
+        {
+          "director": "M. A. Weinberger",
+          "committee": "RCS",
+          "role": "chair"
+        },
+        {
+          "director": "M. A. Weinberger",
+          "committee": "SC",
+          "role": "member"
+        },
+        {
+          "director": "N. Y. West",
+          "committee": "RCS",
+          "role": "member"
+        },
+        {
+          "director": "N. Y. West",
+          "committee": "ST",
+          "role": "member"
+        },
+        {
+          "director": "N. Y. West",
+          "committee": "SC",
+          "role": "member"
+        },
+        {
+          "director": "E. A. Woods",
+          "committee": "CB",
+          "role": "chair"
+        },
+        {
+          "director": "E. A. Woods",
+          "committee": "RCS",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "jpmorgan",
+      "company": "JPMorgan Chase & Co.",
+      "cik": "0000019617",
+      "accession": "0000019617-26-000096",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000096/jpm-20260402.htm",
+      "filed": "2026-04-06",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Alex Gorsky",
+        "Alicia Boler Davis",
+        "Brad D. Smith",
+        "Linda B. Bammann",
+        "Mark A. Weinberger",
+        "Mellody Hobson",
+        "Michele G. Buck",
+        "Phebe N. Novakovic",
+        "Stephen B. Burke",
+        "Virginia M. Rometty"
+      ],
+      "seats": [
+        {
+          "director": "Stephen B. Burke",
+          "committee": "CMDC",
+          "role": "chair"
+        },
+        {
+          "director": "Stephen B. Burke",
+          "committee": "Governance",
+          "role": "member"
+        },
+        {
+          "director": "Stephen B. Burke",
+          "committee": "Markets Compliance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Linda B. Bammann",
+          "committee": "CMDC",
+          "role": "member"
+        },
+        {
+          "director": "Linda B. Bammann",
+          "committee": "Risk",
+          "role": "chair"
+        },
+        {
+          "director": "Linda B. Bammann",
+          "committee": "Omnibus Committee",
+          "role": "member"
+        },
+        {
+          "director": "Michele G. Buck",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Michele G. Buck",
+          "committee": "Governance",
+          "role": "member"
+        },
+        {
+          "director": "Alicia Boler Davis",
+          "committee": "PRC",
+          "role": "member"
+        },
+        {
+          "director": "Alicia Boler Davis",
+          "committee": "Risk",
+          "role": "member"
+        },
+        {
+          "director": "Alex Gorsky",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Alex Gorsky",
+          "committee": "Governance",
+          "role": "member"
+        },
+        {
+          "director": "Mellody Hobson",
+          "committee": "PRC",
+          "role": "chair"
+        },
+        {
+          "director": "Mellody Hobson",
+          "committee": "Risk",
+          "role": "member"
+        },
+        {
+          "director": "Mellody Hobson",
+          "committee": "Markets Compliance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Phebe N. Novakovic",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Phebe N. Novakovic",
+          "committee": "PRC",
+          "role": "member"
+        },
+        {
+          "director": "Virginia M. Rometty",
+          "committee": "CMDC",
+          "role": "member"
+        },
+        {
+          "director": "Virginia M. Rometty",
+          "committee": "Governance",
+          "role": "chair"
+        },
+        {
+          "director": "Virginia M. Rometty",
+          "committee": "Markets Compliance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Brad D. Smith",
+          "committee": "PRC",
+          "role": "member"
+        },
+        {
+          "director": "Brad D. Smith",
+          "committee": "Risk",
+          "role": "member"
+        },
+        {
+          "director": "Mark A. Weinberger",
+          "committee": "Audit",
+          "role": "chair"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "kfrc",
+      "company": "Kforce Inc.",
+      "cik": "0000930420",
+      "accession": "0000930420-26-000013",
+      "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000013/kfrc-20260313.htm",
+      "filed": "2026-03-13",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Ann E. Dunwoody",
+        "Catherine H. Cloudman",
+        "Derrick D. Brooks",
+        "Elaine D. Rosen",
+        "Mark F. Furlong",
+        "N. John Simmons",
+        "Randall A. Mehl"
+      ],
+      "seats": [
+        {
+          "director": "Derrick D. Brooks",
+          "committee": "Nomin. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Derrick D. Brooks",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Ann E. Dunwoody",
+          "committee": "Nomin. Comm",
+          "role": "chair"
+        },
+        {
+          "director": "Ann E. Dunwoody",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "N. John Simmons",
+          "committee": "Audit Comm",
+          "role": "member"
+        },
+        {
+          "director": "N. John Simmons",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Catherine H. Cloudman",
+          "committee": "Audit Comm",
+          "role": "member"
+        },
+        {
+          "director": "Catherine H. Cloudman",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Mark F. Furlong",
+          "committee": "Audit Comm",
+          "role": "chair"
+        },
+        {
+          "director": "Mark F. Furlong",
+          "committee": "Comp. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Mark F. Furlong",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Randall A. Mehl",
+          "committee": "Comp. Comm",
+          "role": "chair"
+        },
+        {
+          "director": "Randall A. Mehl",
+          "committee": "Nomin. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Randall A. Mehl",
+          "committee": "Corp. Gov. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Elaine D. Rosen",
+          "committee": "Comp. Comm",
+          "role": "member"
+        },
+        {
+          "director": "Elaine D. Rosen",
+          "committee": "Corp. Gov. Comm",
+          "role": "chair"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "microsoft",
+      "company": "Microsoft Corporation",
+      "cik": "0000789019",
+      "accession": "0001193125-25-245150",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+      "filed": "2025-10-21",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Catherine MacGregor",
+        "Charles W. Scharf",
+        "Emma N. Walmsley",
+        "Hugh F. Johnston",
+        "John W. Stanton",
+        "Mark A. L. Mason",
+        "Penny S. Pritzker",
+        "Reid G. Hoffman",
+        "Sandra E. Peterson",
+        "Teri L. List"
+      ],
+      "seats": [
+        {
+          "director": "Reid G. Hoffman",
+          "committee": "Environmental, Social, and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "Hugh F. Johnston",
+          "committee": "Audit",
+          "role": "chair"
+        },
+        {
+          "director": "Teri L. List",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Teri L. List",
+          "committee": "Governance and Nominating",
+          "role": "member"
+        },
+        {
+          "director": "Catherine MacGregor",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "Catherine MacGregor",
+          "committee": "Environmental, Social, and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "Mark A. L. Mason",
+          "committee": "Governance and Nominating",
+          "role": "member"
+        },
+        {
+          "director": "Sandra E. Peterson",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "Sandra E. Peterson",
+          "committee": "Governance and Nominating",
+          "role": "chair"
+        },
+        {
+          "director": "Penny S. Pritzker",
+          "committee": "Environmental, Social, and Public Policy",
+          "role": "chair"
+        },
+        {
+          "director": "Carlos A. Rodriguez",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Carlos A. Rodriguez",
+          "committee": "Compensation",
+          "role": "chair"
+        },
+        {
+          "director": "Charles W. Scharf",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "Charles W. Scharf",
+          "committee": "Governance and Nominating",
+          "role": "member"
+        },
+        {
+          "director": "John W. Stanton",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "John W. Stanton",
+          "committee": "Environmental, Social, and Public Policy",
+          "role": "member"
+        },
+        {
+          "director": "Emma N. Walmsley",
+          "committee": "Compensation",
+          "role": "member"
+        },
+        {
+          "director": "Emma N. Walmsley",
+          "committee": "Environmental, Social, and Public Policy",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: Carlos A. Rodriguez"
+    },
+    {
+      "key": "powl",
+      "company": "Powell Industries, Inc.",
+      "cik": "0000080420",
+      "accession": "0001140361-26-000342",
+      "url": "https://www.sec.gov/Archives/edgar/data/80420/000114036126000342/ny20060559x1_def14a.htm",
+      "filed": "2026-01-06",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Alaina K. Brooks",
+        "James W. McGill",
+        "John G. Stacey",
+        "Katheryn B. Curtis",
+        "Mark W. Smith",
+        "Mohit Singh",
+        "Richard E. Williams"
+      ],
+      "seats": [
+        {
+          "director": "Alaina K. Brooks",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Alaina K. Brooks",
+          "committee": "Nominating and Governance Committee",
+          "role": "member"
+        },
+        {
+          "director": "Katheryn B. Curtis",
+          "committee": "Compensation and Human Capital Committee",
+          "role": "member"
+        },
+        {
+          "director": "Katheryn B. Curtis",
+          "committee": "Nominating and Governance Committee",
+          "role": "member"
+        },
+        {
+          "director": "James W. McGill",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "James W. McGill",
+          "committee": "Compensation and Human Capital Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Mohit Singh",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Mohit Singh",
+          "committee": "Compensation and Human Capital Committee",
+          "role": "member"
+        },
+        {
+          "director": "Mark W. Smith",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "John G. Stacey",
+          "committee": "Compensation and Human Capital Committee",
+          "role": "member"
+        },
+        {
+          "director": "Richard E. Williams",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Richard E. Williams",
+          "committee": "Nominating and Governance Committee",
+          "role": "chair"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    },
+    {
+      "key": "procter_gamble",
+      "company": "The Procter & Gamble Company",
+      "cik": "0000080424",
+      "accession": "0001193125-26-372211",
+      "url": "https://www.sec.gov/Archives/edgar/data/80424/000119312526372211/pg-20260826.htm",
+      "filed": "2026-08-28",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Amy L. Chang",
+        "Ashley McEvoy",
+        "B. Marc Allen",
+        "Brett Biggs",
+        "Christine M. McCarthy",
+        "Christopher Kempczinski",
+        "Craig Arnold",
+        "Joseph Jimenez",
+        "Rajesh Subramaniam",
+        "Robert J. Portman",
+        "Sheila Bonini"
+      ],
+      "seats": [
+        {
+          "director": "B. Marc Allen",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "B. Marc Allen",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Craig Arnold",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Craig Arnold",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Brett Biggs",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Brett Biggs",
+          "committee": "Innovation & Technology",
+          "role": "member"
+        },
+        {
+          "director": "Sheila Bonini",
+          "committee": "Governance & Public Responsibility",
+          "role": "member"
+        },
+        {
+          "director": "Sheila Bonini",
+          "committee": "Innovation & Technology",
+          "role": "member"
+        },
+        {
+          "director": "Amy L. Chang",
+          "committee": "Governance & Public Responsibility",
+          "role": "member"
+        },
+        {
+          "director": "Amy L. Chang",
+          "committee": "Innovation & Technology",
+          "role": "chair"
+        },
+        {
+          "director": "Joseph Jimenez",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Joseph Jimenez",
+          "committee": "Governance & Public Responsibility",
+          "role": "chair"
+        },
+        {
+          "director": "Christopher Kempczinski",
+          "committee": "Audit",
+          "role": "member"
+        },
+        {
+          "director": "Christopher Kempczinski",
+          "committee": "Compensation & Leadership Development",
+          "role": "chair"
+        },
+        {
+          "director": "Debra L. Lee",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Debra L. Lee",
+          "committee": "Governance & Public Responsibility",
+          "role": "member"
+        },
+        {
+          "director": "Christine M. McCarthy",
+          "committee": "Audit",
+          "role": "chair"
+        },
+        {
+          "director": "Christine M. McCarthy",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Ashley McEvoy",
+          "committee": "Compensation & Leadership Development",
+          "role": "member"
+        },
+        {
+          "director": "Ashley McEvoy",
+          "committee": "Innovation & Technology",
+          "role": "member"
+        },
+        {
+          "director": "Robert J. Portman",
+          "committee": "Governance & Public Responsibility",
+          "role": "member"
+        },
+        {
+          "director": "Robert J. Portman",
+          "committee": "Innovation & Technology",
+          "role": "member"
+        },
+        {
+          "director": "Rajesh Subramaniam",
+          "committee": "Governance & Public Responsibility",
+          "role": "member"
+        },
+        {
+          "director": "Rajesh Subramaniam",
+          "committee": "Innovation & Technology",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: Debra L. Lee"
+    },
+    {
+      "key": "target",
+      "company": "Target Corporation",
+      "cik": "0000027419",
+      "accession": "0001628280-26-027508",
+      "url": "https://www.sec.gov/Archives/edgar/data/27419/000162828026027508/tgt-20260426.htm",
+      "filed": "2026-04-27",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Christine A. Leahy",
+        "David P. Abney",
+        "Derica W. Rice",
+        "Dmitri L. Stockton",
+        "Gail K. Boudreaux",
+        "George S. Barrett",
+        "John R. Hoke III",
+        "Monica C. Lozano",
+        "Robert L. Edwards",
+        "Stephen B. Bratspies"
+      ],
+      "seats": [
+        {
+          "director": "David P. Abney",
+          "committee": "Audit & Risk",
+          "role": "member"
+        },
+        {
+          "director": "David P. Abney",
+          "committee": "Infrastructure & Finance",
+          "role": "member"
+        },
+        {
+          "director": "Douglas M. Baker, Jr.",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "Douglas M. Baker, Jr.",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "George S. Barrett",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "George S. Barrett",
+          "committee": "Governance & Sustainability",
+          "role": "chair"
+        },
+        {
+          "director": "Gail K. Boudreaux",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "Gail K. Boudreaux",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Stephen B. Bratspies",
+          "committee": "Audit & Risk",
+          "role": "member"
+        },
+        {
+          "director": "Stephen B. Bratspies",
+          "committee": "Infrastructure & Finance",
+          "role": "member"
+        },
+        {
+          "director": "Robert L. Edwards",
+          "committee": "Audit & Risk",
+          "role": "member"
+        },
+        {
+          "director": "Robert L. Edwards",
+          "committee": "Infrastructure & Finance",
+          "role": "member"
+        },
+        {
+          "director": "John R. Hoke III",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "John R. Hoke III",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Donald R. Knauss",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "Donald R. Knauss",
+          "committee": "Infrastructure & Finance",
+          "role": "chair"
+        },
+        {
+          "director": "Christine A. Leahy",
+          "committee": "Compensation & Human Capital Management",
+          "role": "member"
+        },
+        {
+          "director": "Christine A. Leahy",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Monica C. Lozano",
+          "committee": "Compensation & Human Capital Management",
+          "role": "chair"
+        },
+        {
+          "director": "Monica C. Lozano",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        },
+        {
+          "director": "Grace Puma",
+          "committee": "Audit & Risk",
+          "role": "member"
+        },
+        {
+          "director": "Grace Puma",
+          "committee": "Infrastructure & Finance",
+          "role": "member"
+        },
+        {
+          "director": "Derica W. Rice",
+          "committee": "Audit & Risk",
+          "role": "member"
+        },
+        {
+          "director": "Derica W. Rice",
+          "committee": "Infrastructure & Finance",
+          "role": "member"
+        },
+        {
+          "director": "Dmitri L. Stockton",
+          "committee": "Audit & Risk",
+          "role": "chair"
+        },
+        {
+          "director": "Dmitri L. Stockton",
+          "committee": "Governance & Sustainability",
+          "role": "member"
+        }
+      ],
+      "futureRoles": [
+        {
+          "director": "David P. Abney",
+          "committee": "Infrastructure & Finance Committee",
+          "role": "chair",
+          "stated": "was chosen to succeed Mr. Knauss as Chair of the Infrastructure & Finance Committee, effective June 2026"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand | slate excludes directors the filing says are leaving: Donald R. Knauss, Douglas M. Baker, Jr., Grace Puma"
+    },
+    {
+      "key": "ufpt",
+      "company": "UFP Technologies, Inc.",
+      "cik": "0000914156",
+      "accession": "0001628280-26-028710",
+      "url": "https://www.sec.gov/Archives/edgar/data/914156/000162828026028710/ufpt-20260430.htm",
+      "filed": "2026-04-30",
+      "shape": "matrix",
+      "truth": "verified-reading",
+      "slate": [
+        "Cynthia L. Feldmann",
+        "Daniel C. Croteau",
+        "Joseph John Hassett",
+        "Marc Kozin",
+        "Symeria Hudson",
+        "Thomas Oberdorf"
+      ],
+      "seats": [
+        {
+          "director": "Thomas Oberdorf",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Thomas Oberdorf",
+          "committee": "Nominating Committee",
+          "role": "member"
+        },
+        {
+          "director": "Marc Kozin",
+          "committee": "Compensation Committee",
+          "role": "member"
+        },
+        {
+          "director": "Marc Kozin",
+          "committee": "Nominating Committee",
+          "role": "member"
+        },
+        {
+          "director": "Daniel C. Croteau",
+          "committee": "Compensation Committee",
+          "role": "member"
+        },
+        {
+          "director": "Daniel C. Croteau",
+          "committee": "Nominating Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Cynthia L. Feldmann",
+          "committee": "Audit Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Cynthia L. Feldmann",
+          "committee": "Nominating Committee",
+          "role": "member"
+        },
+        {
+          "director": "Joseph John Hassett",
+          "committee": "Compensation Committee",
+          "role": "chair"
+        },
+        {
+          "director": "Joseph John Hassett",
+          "committee": "Nominating Committee",
+          "role": "member"
+        },
+        {
+          "director": "Symeria Hudson",
+          "committee": "Audit Committee",
+          "role": "member"
+        },
+        {
+          "director": "Symeria Hudson",
+          "committee": "Nominating Committee",
+          "role": "member"
+        }
+      ],
+      "notes": "reference = a dedicated model reading of the committee table's HTML, verified against hand-counted seats and chairs per committee and spot checks by hand"
+    }
+  ]
+}

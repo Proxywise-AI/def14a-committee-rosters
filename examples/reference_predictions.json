@@ -1,0 +1,3282 @@
+{
+  "cnxn": {
+    "directors": [
+      {
+        "name": "Patricia Gallup",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "David Beffa-Negrini",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jay Bothwick",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Development Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Barbara Duckett",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member; audit committee financial expert"
+          },
+          {
+            "name": "Corporate Development Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jack Ferguson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair; audit committee financial expert"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Development Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Gary Kinyon",
+        "committeeMembership": "none",
+        "committees": []
+      }
+    ]
+  },
+  "coca_cola": {
+    "directors": [
+      {
+        "name": "Herb Allen",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance and Sustainability Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Bela Bajaria",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Talent and Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ana Botín",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance and Sustainability Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Henrique Braun",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Christopher C. Davis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Carolyn Everson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Talent and Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Thomas S. Gayner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Max Levchin",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Talent and Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Amity Millhiser",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "James Quincey",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Caroline J. Tsay",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "David B. Weinberg",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance and Sustainability Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "expo": {
+    "directors": [
+      {
+        "name": "George H. Brown",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Catherine Ford Corrigan, Ph.D.",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Carol Lindstrom",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Karen A. Richardson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Richard L. Schlenker Jr.",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Debra L. Zumwalt",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Human Resources Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "general_mills": {
+    "directors": [
+      {
+        "name": "Joan L. Bottarini",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Benno O. Dorer",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jeffrey L. Harmening",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Maria G. Henry",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jo Ann Jenkins",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Elizabeth C. Lempres",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Dana M. McNabb",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "John G. Morikis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Diane L. Neal",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Maria A. Sastre",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Eric D. Sprunk",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jorge A. Uribe",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "hubbell": {
+    "directors": [
+      {
+        "name": "Edward H. Baine",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Gerben W. Bakker",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Carlos M. Cardoso",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Debra L. Dial",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Anthony J. Guzzi",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Rhett A. Hernandez",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Neal J. Keating",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Bonnie C. Lind",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John F. Malloy",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer M. Pollino",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Garrick J. Rochow",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "jbss": {
+    "directors": [
+      {
+        "name": "Pamela Forbes Lieberman",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chairperson"
+          },
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mercedes Romero",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chairperson"
+          },
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ellen C. Taaffe",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Chairperson"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jasper B. Sanfilippo, Jr.",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Jeffrey T. Sanfilippo",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "James J. Sanfilippo",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "John E. Sanfilippo",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Lisa A. Sanfilippo",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "James A. Valentine",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Michael J. Valentine",
+        "committeeMembership": "none",
+        "committees": []
+      }
+    ]
+  },
+  "mcri": {
+    "directors": [
+      {
+        "name": "John Farahi",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Bob Farahi",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Paul Andrews",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Craig F. Sullivan",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chairman"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Hope S. Taitz",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "mlab": {
+    "directors": [
+      {
+        "name": "John Sullivan, Ph.D.",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Siddhartha Kadia, Ph.D.",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Shiraz Ladiwala",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Jennifer Alltoft",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark Capone",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Shannon Hall",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "R. Tony Tripeny",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "nordson": {
+    "directors": [
+      {
+        "name": "Christopher Mapes",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Michael Merriman, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Sundaram Nagarajan",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Frank Jaehnert",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ginger Jones",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Milton Morris",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John DeFord",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer Parmentier",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Sustainability Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Victor Richey, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "nssc": {
+    "directors": [
+      {
+        "name": "Richard L. Soloway",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Kevin S. Buchel",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "David A. Paterson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Andrew J. Wilder",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chairman"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Robert A. Ungar",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Chairman"
+          }
+        ]
+      },
+      {
+        "name": "Rick Lazio",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Chairman"
+          }
+        ]
+      },
+      {
+        "name": "Donna A. Soloway",
+        "committeeMembership": "none",
+        "committees": []
+      }
+    ]
+  },
+  "utmd": {
+    "directors": [
+      {
+        "name": "Kevin L. Cornwell",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ernst G. Hoyer",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member; outside-director representative"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Chair; Financial Expert"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Benefits Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "James H. Beeson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Paul O. Richins",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Carrie Leigh",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Kevin C. Timken",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Benefits Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "verizon": {
+    "directors": [
+      {
+        "name": "Shellye Archambeau",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance and Policy Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Roxanne Austin",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark Bertolini",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance and Policy Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Human Resources Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Vittorio Colao",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Corporate Governance and Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Caroline Litchfield",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance and Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer Mann",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Human Resources Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Laxman Narasimhan",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Human Resources Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Corporate Governance and Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Schulman",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Carol Tomé",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "walmart": {
+    "directors": [
+      {
+        "name": "Cesar Conde",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Strategic Planning and Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Sarah J. Friar",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Technology and eCommerce Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "John R. Furner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Carla A. Harris",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Management Development Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Strategic Planning and Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Thomas W. Horton",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Strategic Planning and Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Marissa A. Mayer",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Management Development Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Technology and eCommerce Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Shishir Mehrotra",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Management Development Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Technology and eCommerce Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Robert E. Moritz, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair effective as of the 2026 Annual Shareholders’ Meeting, subject to re-election"
+          },
+          {
+            "name": "Technology and eCommerce Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Gregory B. Penner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Randall L. Stephenson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Management Development Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Strategic Planning and Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Steuart L. Walton",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Strategic Planning and Finance Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "weys": {
+    "directors": [
+      {
+        "name": "Tina Chang",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John W. Florsheim",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Thomas W. Florsheim",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Thomas W. Florsheim, Jr.",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Becky Kryger",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Cory L. Nettles",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Frederick P. Stratton, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "3m": {
+    "directors": [
+      {
+        "name": "David P. Bozeman",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science, Technology & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Thomas “Tony” K. Brown",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "William M. Brown",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Audrey Choi",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science, Technology & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Anne H. Chow",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Science, Technology & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "James R. Fitterling",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Suzan Kereere",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Talent Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Neil G. Mitchill, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Pedro J. Pizarro",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science, Technology & Sustainability Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Thomas W. Sweet",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "amazon": {
+    "directors": [
+      {
+        "name": "Jeffrey P. Bezos",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Andrew R. Jassy",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Edith W. Cooper",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Leadership Development and Compensation Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Jamie S. Gorelick",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Daniel P. Huttenlocher",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Leadership Development and Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Security Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Y. Ng",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Indra K. Nooyi",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan J. Rubinstein",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Corporate Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Security Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Brad D. Smith",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Patricia Q. Stonesifer",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Leadership Development and Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Wendell P. Weeks",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "caterpillar": {
+    "directors": [
+      {
+        "name": "Joseph E. Creed",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "James C. Fish, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Sustainability and other Public Policy Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Lynn J. Good",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member, effective August 1, 2026"
+          },
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member, effective August 1, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Gerald Johnson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Sustainability and other Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Nazzic S. Keene",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "David W. MacLennan",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Sustainability and other Public Policy Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Judith F. Marks",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Debra L. Reed-Klages",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Susan C. Schwab",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Sustainability and other Public Policy Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Rayford Wilkins, Jr.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Resources Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "exxon": {
+    "directors": [
+      {
+        "name": "Michael J. Angelakis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Angela F. Braly",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Environment, Safety and Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Maria S. Dreyfus",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Gregory C. Garland",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John D. Harris II",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Kaisa H. Hietala",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Joseph L. Hooley",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Steven A. Kandarian",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Alexander A. Karsner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Environment, Safety and Public Policy Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Lawrence W. Kellner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Environment, Safety and Public Policy Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Executive Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Dina Powell McCormick",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Environment, Safety and Public Policy Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Darren W. Woods",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Executive Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "hurc": {
+    "directors": [
+      {
+        "name": "Michael Doar",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Cynthia Dubin",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Timothy J. Gardner",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Lawrence G. Keyler",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Richard Porter",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Rashleger",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Janaki Sivanesan",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Gregory S. Volovic",
+        "committeeMembership": "none",
+        "committees": []
+      }
+    ]
+  },
+  "johnson_johnson": {
+    "directors": [
+      {
+        "name": "Mary C. Beckerle, Ph.D.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Science & Technology Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Regulatory Compliance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer A. Doudna, Ph.D.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating & Corporate Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science & Technology Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Joaquin Duato",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Marillyn A. Hewson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating & Corporate Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation & Benefits Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Finance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Special Committee – Orthopaedics Separation",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Paula A. Johnson, M.D.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nominating & Corporate Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science & Technology Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Hubert Joly",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating & Corporate Governance Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Special Committee – Orthopaedics Separation",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark B. McClellan, M.D., Ph.D.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Regulatory Compliance & Sustainability Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science & Technology Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John G. Morikis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation & Benefits Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Daniel E. Pinto",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation & Benefits Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Special Committee – Orthopaedics Separation",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark A. Weinberger",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Regulatory Compliance & Sustainability Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Special Committee – Orthopaedics Separation",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Nadja Y. West, M.D.",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Regulatory Compliance & Sustainability Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Science & Technology Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Special Committee – Orthopaedics Separation",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Eugene A. Woods",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Benefits Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Regulatory Compliance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "jpmorgan": {
+    "directors": [
+      {
+        "name": "Stephen B. Burke",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Management Development Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Corporate Governance & Nominating Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Markets Compliance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Linda B. Bammann",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Risk Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation & Management Development Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Omnibus Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Michele G. Buck",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance & Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Alicia Boler Davis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Risk Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "James Dimon",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Alex Gorsky",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance & Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mellody Hobson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Risk Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Markets Compliance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Phebe N. Novakovic",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Virginia M. Rometty",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance & Nominating Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation & Management Development Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Markets Compliance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Brad D. Smith",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Public Responsibility Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Risk Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark A. Weinberger",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "kfrc": {
+    "directors": [
+      {
+        "name": "Derrick D. Brooks",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nomination Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ann E. Dunwoody",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Nomination Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "N. John Simmons",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Catherine H. Cloudman",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "David L. Dunkel",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Mark F. Furlong",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Joseph J. Liberatore",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Randall A. Mehl",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nomination Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Elaine D. Rosen",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Corporate Governance Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "microsoft": {
+    "directors": [
+      {
+        "name": "Reid G. Hoffman",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Environmental, Social, and Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Hugh F. Johnston",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair, Financial Expert"
+          }
+        ]
+      },
+      {
+        "name": "Teri L. List",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Financial Expert and Member"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Catherine MacGregor",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Environmental, Social, and Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark A. L. Mason",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Satya Nadella",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Sandra E. Peterson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Penny S. Pritzker",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Environmental, Social, and Public Policy Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "John David Rainey",
+        "committeeMembership": "",
+        "committees": []
+      },
+      {
+        "name": "Charles W. Scharf",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance and Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John W. Stanton",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Environmental, Social, and Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Emma N. Walmsley",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Environmental, Social, and Public Policy Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "powl": {
+    "directors": [
+      {
+        "name": "Alaina K. Brooks",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Brett A. Cope",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Katheryn B. Curtis",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Capital Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "James W. McGill",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Human Capital Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Mohit Singh",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation and Human Capital Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Mark W. Smith",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "John G. Stacey",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation and Human Capital Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Richard E. Williams",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating and Governance Committee",
+            "role": "Chair"
+          }
+        ]
+      }
+    ]
+  },
+  "procter_gamble": {
+    "directors": [
+      {
+        "name": "B. Marc Allen",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Craig Arnold",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Brett Biggs",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Sheila Bonini",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance & Public Responsibility",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Amy L. Chang",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance & Public Responsibility",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Shailesh G. Jejurikar",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Joseph Jimenez",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Member"
+          },
+          {
+            "name": "Governance & Public Responsibility",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Christopher Kempczinski",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit",
+            "role": "Member"
+          },
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Christine M. McCarthy",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Ashley McEvoy",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Leadership Development",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Robert J. Portman",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance & Public Responsibility",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Rajesh Subramaniam",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance & Public Responsibility",
+            "role": "Member"
+          },
+          {
+            "name": "Innovation & Technology",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "target": {
+    "directors": [
+      {
+        "name": "David P. Abney",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit & Risk Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Infrastructure & Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "George S. Barrett",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Compensation & Human Capital Management Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Gail K. Boudreaux",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Human Capital Management Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Stephen B. Bratspies",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit & Risk Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Infrastructure & Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Brian C. Cornell",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Robert L. Edwards",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit & Risk Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Infrastructure & Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Michael J. Fiddelke",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "John R. Hoke III",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Human Capital Management Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Christine A. Leahy",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Human Capital Management Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Monica C. Lozano",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation & Human Capital Management Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Derica W. Rice",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit & Risk Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Infrastructure & Finance Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Dmitri L. Stockton",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit & Risk Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Governance & Sustainability Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  },
+  "ufpt": {
+    "directors": [
+      {
+        "name": "R. Jeffrey Bailly",
+        "committeeMembership": "none",
+        "committees": []
+      },
+      {
+        "name": "Thomas Oberdorf",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Marc Kozin",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Daniel C. Croteau",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Chair"
+          }
+        ]
+      },
+      {
+        "name": "Cynthia L. Feldmann",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Joseph John Hassett",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Compensation Committee",
+            "role": "Chair"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      },
+      {
+        "name": "Symeria Hudson",
+        "committeeMembership": "member",
+        "committees": [
+          {
+            "name": "Audit Committee",
+            "role": "Member"
+          },
+          {
+            "name": "Nominating Committee",
+            "role": "Member"
+          }
+        ]
+      }
+    ]
+  }
+}

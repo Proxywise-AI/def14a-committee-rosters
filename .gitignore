@@ -1,0 +1,4 @@
+# fetched filings are large (~64 MB) and public: re-fetch with filings/fetch.py
+filings/*.htm
+__pycache__/
+.DS_Store
